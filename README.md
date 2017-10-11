@@ -17,11 +17,11 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
     all’aula desiderata partendo da un’aula inizialmente scelta;
 
 “Trova aula libera”:
-            che tramite un filtro sia in grado di trovare l’aula
+    che tramite un filtro sia in grado di trovare l’aula
     libera in una determinata fascia oraria;
 
 “Trova lezione”:
-            che consenta, dato il nome di una lezione da seguire,
+    che consenta, dato il nome di una lezione da seguire,
     di restituire all’utente aula e orario in cui questa si svolgerà
     e di mostrare l’aula sulla mappa;
 
