@@ -6,6 +6,8 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
 
 ### Funzionalità
 
+```markdown
+
 # “Trova aula”: 
 ###      che consenta di individuare e evidenziare sulla mappa una determinata aula data in input dall’utente;
 
@@ -20,3 +22,5 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
 
 # “Trova orario”:
 ###      che mostri per una determinata aula scelta dall’utente le ore di lezione previste per un giorno scelto dall’utente.
+
+```
