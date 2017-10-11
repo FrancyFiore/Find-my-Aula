@@ -6,13 +6,17 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
 
 ### Funzionalità
 
-1 - #“Trova aula”: 
-      che consenta di individuare e evidenziare sulla mappa una determinata aula data in input dall’utente;
+# “Trova aula”: 
+###      che consenta di individuare e evidenziare sulla mappa una determinata aula data in input dall’utente;
 
-2 - “Trova percorso”: che sia in grado di fornire le indicazioni per poter arrivare all’aula desiderata partendo da un’aula inizialmente scelta;
+# “Trova percorso”:
+###      che sia in grado di fornire le indicazioni per poter arrivare all’aula desiderata partendo da un’aula inizialmente scelta;
 
-3 - “Trova aula libera”: che tramite un filtro sia in grado di trovare l’aula libera in una determinata fascia oraria;
+# “Trova aula libera”:
+###      che tramite un filtro sia in grado di trovare l’aula libera in una determinata fascia oraria;
 
-4 - “Trova lezione”: che consenta, dato il nome di una lezione da seguire, di restituire all’utente aula e orario in cui questa si svolgerà e di mostrare l’aula sulla mappa;
+# “Trova lezione”:
+###      che consenta, dato il nome di una lezione da seguire, di restituire all’utente aula e orario in cui questa si svolgerà e di mostrare l’aula sulla mappa;
 
-5 - “Trova orario”: che mostri per una determinata aula scelta dall’utente le ore di lezione previste per un giorno scelto dall’utente.
+# “Trova orario”:
+###      che mostri per una determinata aula scelta dall’utente le ore di lezione previste per un giorno scelto dall’utente.
