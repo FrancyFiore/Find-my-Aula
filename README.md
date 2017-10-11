@@ -6,8 +6,6 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
 
 ### Funzionalità
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ```markdown
 1 - “Trova aula”: che consenta di individuare e evidenziare sulla mappa una determinata aula data in input dall’utente;
 
