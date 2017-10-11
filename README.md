@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Benvenuto in Find my Aula
 
-You can use the [editor on GitHub](https://github.com/FrancyFiore/PariOpportunita/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Abbiamo riscontrato che una delle maggiori problematiche degli studenti, in particolare delle matricole, e più in generale di persone nuove nell’ambiente universitario di Trento, è la difficoltà di orientarsi all’interno delle strutture e trovare in breve tempo le aule dove devono recarsi. Inoltre è stata riscontrata anche una scarsa segnaletica interna per consentire di trovare velocemente le aule.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che sia in grado di aiutare gli studenti a trovare aule e altri spazi universitari (come aule studio) dell’Università degli Studi di Trento del polo Ferrari (Povo 1), tramite l’utilizzo delle mappe indoor di Google. La nostra applicazione ingloberà le viste aeree fornite dall’API di Google in modo da fornire una panoramica all’utente. 
 
-### Markdown
+### Funzionalità
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+1 - “Trova aula”: che consenta di individuare e evidenziare sulla mappa una determinata aula data in input dall’utente;
 
-# Header 1
-## Header 2
-### Header 3
+2 - “Trova percorso”: che sia in grado di fornire le indicazioni per poter arrivare all’aula desiderata partendo da un’aula inizialmente scelta;
 
-- Bulleted
-- List
+3 - “Trova aula libera”: che tramite un filtro sia in grado di trovare l’aula libera in una determinata fascia oraria;
 
-1. Numbered
-2. List
+4 - “Trova lezione”: che consenta, dato il nome di una lezione da seguire, di restituire all’utente aula e orario in cui questa si svolgerà e di mostrare l’aula sulla mappa;
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+5 - “Trova orario”: che mostri per una determinata aula scelta dall’utente le ore di lezione previste per un giorno scelto dall’utente.
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FrancyFiore/PariOpportunita/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
