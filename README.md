@@ -51,27 +51,32 @@ Abbiamo previsto anche l’implementazione della stessa applicazione per la stru
 
 Abbiamo previsto di dividere il progetto in due release:
 
-## Release 1:                                       ## Release 2:
-1. “Trova aula”;                                    1. "Trova ufficio professore”;
-2. “Trova aula libera”;                             2.  “Trova laboratorio”;
-3. “Trova lezione”;                                 3. Implementazione del bot anche per la struttura di Povo 2;
-4. “Trova orario”;                                  4. Bot Telegram
+### Release 1:                                      
+1. “Trova aula”;                                    
+2. “Trova aula libera”;                             
+3. “Trova lezione”;                                 
+4. “Trova orario”;                                  
 5. “Trova percorso”.
 
-## Componenti/Architetture
+### Release 2:
+1. "Trova ufficio professore”;
+2.  “Trova laboratorio”;
+3. Implementazione del bot anche per la struttura di Povo 2;
+4. Bot Telegram
+
+### Componenti/Architetture
 - API.ia
 - Javascript
 - Heroku
 - MongoDb
 - Node.js
 
-## Organizzazione Team
+### Organizzazione Team
 La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: FEATURE TEAM.
 
-## Strategia di Branching
+### Strategia di Branching
 Come strategia di branching usiamo la Gitflow Workflow.
 
-ID	NOME	USER STORY	HOW TO DEMO	IMPORTANZA	DIFFICOLTA’
 1 - Aula libera:
     Come utente voglio trovare un’aula libera così da poter avere uno spazio alternativo alla biblioteca dove poter studiare e confrontarmi anche con i miei compagni.
     Partendo dalla pagina principale, quando sceglierò l’opzione “Trova aula libera” e avrò inserito uno slot di tempo, mi sarà mostrata una lista delle aule libere in quella determinata fascia temporale.
