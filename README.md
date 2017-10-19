@@ -77,6 +77,8 @@ La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre q
 ### Strategia di Branching
 Come strategia di branching usiamo la Gitflow Workflow.
 
+### User Stories:
+
 1 - Aula libera:
     Come utente voglio trovare un’aula libera così da poter avere uno spazio alternativo alla biblioteca dove poter studiare e confrontarmi anche con i miei compagni.
     Partendo dalla pagina principale, quando sceglierò l’opzione “Trova aula libera” e avrò inserito uno slot di tempo, mi sarà mostrata una lista delle aule libere in quella determinata fascia temporale.
