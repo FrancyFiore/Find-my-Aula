@@ -1,0 +1,117 @@
+#myMaps {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    cursor: default;
+    height: 600px;
+    min-height: 100px;
+    width: 900px;
+    min-width: 150px;
+    padding-left: 20%;
+   /*height 90vh; 
+    min-height: 35em; */
+   /* width: 130vh;
+    min-width: 35em;*/
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (max-width: 1680px) {
+    #myMaps {
+        height: 600px;
+        min-height: 100px;
+        width: 900px;
+        min-width: 150px;
+       /* padding-left: 20%;*/
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+   #myMaps {
+        height: 400px;
+        min-height: 100px;
+        width: 600px;
+        min-width: 150px;
+      /*  padding-left: 13%;*/
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #myMaps {
+        height: 200px;
+        min-height: 100px;
+        width: 300px;
+        min-width: 150px;
+       /* padding-left: 3%;*/
+    }
+}
+
+/* Vecchio */
+
+body {
+	background-color: #2e3842; /* 2e3842 */
+	/* border: 1px solid black; */
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+a img {
+	border: none;
+}
+
+#controls {
+	background-color: lightGrey;
+	display: block;
+	height: 50px;
+	padding: 10px 0 0 10px;
+	z-index:-1;
+}
+/*
+div#myMaps {
+	height: 450px;
+	width: 960px;
+}
+
+div#myMaps div {
+	display: inline-block;
+	height: 450px; /* 960 */
+/*	width: 600px;  /* 300 */
+  /*  background-color: #FFF
+}
+
+div#mapLoading {
+	font-size: 10em;
+	left: 50px;
+	position: absolute;
+	top: 60px;
+	z-index: -1;
+}
+*/
+.debugPath {
+	stroke: orange;
+	stroke-width: 5;
+}
+
+.debugRoom {
+	fill: red;
+	stroke: red;
+	stroke-width: 4;
+}
+
+.wayfindingRoom {
+	fill: #ffc;
+	stroke: blue;
+	stroke-width: 2;
+	stroke-dasharray: 5 3;
+}
