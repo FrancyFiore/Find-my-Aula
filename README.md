@@ -74,6 +74,15 @@ Abbiamo previsto di dividere il progetto in due release:
 ### Organizzazione Team
 La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: FEATURE TEAM.
 
+-Discussione iniziale sul progetto
+-Requisiti
+-Programmazione: Fiorelli Francesco e Tosadori Cesare
+-Testing: Scantamburlo Silvia e Oliari Roberta
+
+Strategia di Branching
+Come strategia di branching usiamo la Gitflow Workflow.
+
+
 ### Strategia di Branching
 Come strategia di branching usiamo la Gitflow Workflow.
 
