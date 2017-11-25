@@ -170,6 +170,36 @@ file2.once('open', function(fd){
                 }
             }
             
+            /* Laboratorio  */
+            for(var i=0; i<31; i++){
+                if(body["table"]["E0503/LD MECCANI"][i]["id"] != null){
+                    var id = body["table"]["E0503/LD MECCANI"][i]["id"];
+                    if(id != tmp){
+                        tmp = id;
+                        var inizio = body["table"]["E0503/LD MECCANI"][i]["from"];
+                        inizio = inizio.substr(0, 2);
+                        inizio = Number(inizio);
+                        var fine = body["table"]["E0503/LD MECCANI"][i]["to"];
+                        fine = fine.substr(0, 2);
+                        fine = Number(fine);
+
+                        var aula = body["table"]["E0503/LD MECCANI"][i]["NomeAula"];
+                        var materia = body["table"]["E0503/LD MECCANI"][i]["name"];
+                        var tipo = body["table"]["E0503/LD MECCANI"][i]["type"];
+
+                        if(body["table"]["E0503/LD MECCANI"][i]["Utenti"][0] != null){
+                            var professore_nome = body["table"]["E0503/LD MECCANI"][i]["Utenti"][0]["Nome"];
+                            var professore_cognome = body["table"]["E0503/LD MECCANI"][i]["Utenti"][0]["Cognome"];
+                            var professore_mail = body["table"]["E0503/LD MECCANI"][i]["Utenti"][0]["Mail"];
+                            file2.write(8 + "?" + 25 + "?" + inizio + "?" + fine + "?" + materia + "?" + tipo + "?" + professore_nome + "?" + professore_cognome + "?" + professore_mail + "\n");
+                        }
+                        else{
+                            file2.write(5 + "?" + 25 + "?" + inizio + "?" + fine + "?" + materia + "?" + tipo + "\n");
+                        }
+                    }
+                }
+            }
+            
             file2.end();
             console.log("The file was saved!");
         });

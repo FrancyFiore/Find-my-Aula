@@ -75,3 +75,5 @@
 8?24?11?14?Scienza e tecnologia dei materiali 1 - n0?Lezione?Roberto?Dal Maschio?roberto.dalmaschio@unitn.it
 8?24?14?16?Security testing - n0?Lezione?Paolo?Tonella?tonella@fbk.eu
 8?24?16?18?Analisi funzionale?Lezione?Augusto?Visintin?augusto.visintin@unitn.it
+5?25?9?13?Laboratorio didattico di Fisica (DICAM) - Prodi?Lezione
+8?25?15?18?Fisica I - LAB - GRUPPO A?Lezione?Antonio?Miotello?antonio.miotello@unitn.it

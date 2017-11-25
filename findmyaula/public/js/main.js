@@ -128,31 +128,8 @@
         var PrimoPiano = file1.responseText.split('\n');
         var SecondoPiano = file2.responseText.split('\n');
         var PoloB = file3.responseText.split('\n');
-
-    /*
-        for(var c=0; c<(PrimoPiano.length-1); c++){
-            var fields = PrimoPiano[c].split('?');
-            if(fields[0] == 8){
-                console.log(fields[1]);
-                console.log(fields[2]);
-                console.log(fields[3]);
-                console.log(fields[4]);
-                console.log(fields[5]);
-                console.log(fields[6]);
-                console.log(fields[7]);
-                console.log(fields[8]);
-            }
-            else{
-                console.log(fields[1]);
-                console.log(fields[2]);
-                console.log(fields[3]);
-                console.log(fields[4]);
-                console.log(fields[5]);
-            }
-        }
-            */
     
-    
+        /* POLO A PRIMO PIANO */
         for(var aula=1; aula<9; aula++){
             for(var ora=7; ora<21; ora++){
                 /*var element = document.getElementById("A10" + aula + ora);*/
@@ -164,20 +141,10 @@
                                 var element = document.getElementById("A10" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
                                 }
                                 if(fields[0] == 5){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
                                 }
                             }
                         }
@@ -186,7 +153,7 @@
             }
         }    
     
-    
+        /* POLO A SECONDO PIANO A201 - A209 */
         for(var aula=1; aula<10; aula++){
             for(var ora=7; ora<21; ora++){
                 for(var c=0; c<(SecondoPiano.length-1); c++){
@@ -197,20 +164,10 @@
                                 var element = document.getElementById("A20" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8]
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
                                 }
                                 if(fields[0] == 5){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
                                 }
                             }
                         }
@@ -218,7 +175,7 @@
                 }    
             }
         }
-    
+        /* POLO A SECONDO PIANO A210 - A224 */
         for(var aula=10; aula<25; aula++){
             for(var ora=7; ora<21; ora++){
                 for(var c=0; c<(SecondoPiano.length-1); c++){
@@ -229,20 +186,10 @@
                                 var element = document.getElementById("A2" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8]
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
                                 }
                                 if(fields[0] == 5){
-                                    if(Materia[1] != 'n0'){
-                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
-                                    }
-                                    else{
-                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                    }
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
                                 }
                             }
                         }
@@ -250,13 +197,25 @@
                 }    
             }
         }
-    
-    
-    
-    
-    
-    
-    
+        /* LABORATORIO SECONDO PIANO */
+        for(var ora=7; ora<21; ora++){
+            for(var c=0; c<(SecondoPiano.length-1); c++){
+                var fields = SecondoPiano[c].split('?');
+                if(fields[1] == 25){
+                    if(fields[2] == ora){
+                        for(var durata=ora; durata<fields[3]; durata++){
+                            var element = document.getElementById("A225" + durata);
+                            if(fields[0] == 8){
+                                element.innerHTML = "<strong>" + fields[4] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                            }
+                            if(fields[0] == 5){
+                                element.innerHTML = "<strong>" + fields[4] + "</strong>";
+                            }
+                        }
+                    }
+                }
+            }    
+        }    
     
         /* FINE LETTURA DEL FILE */
 
