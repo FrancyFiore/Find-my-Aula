@@ -597,6 +597,7 @@ button:focus {
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 	-moz-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    overflow: scroll;
 }
 
 .content--open .content__item {
@@ -688,6 +689,96 @@ button:focus {
     /* Inserito da me */
     color: white;
 }
+
+.content__desc2 {
+	text-align: center;
+	margin: 0 0 0 0;
+    /* Inserito da me */
+    color: white;
+}
+
+/* INSERITO DA ME */
+.hr-text {
+    font-family: Futura, sans-serif;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    /*opacity: .5;*/
+    margin: 3vmin 0 3vmin 0;
+}
+
+.hr-text::before {
+    content: '';
+    /* use the linear-gradient for the fading effect
+    use a solid background color for a solid bar*/
+    opacity: 0.5;
+   /* background: linear-gradient(to right, transparent, #818078, transparent); */
+    background: linear-gradient(to right, transparent, darkblue, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element... */
+    color: white;    
+    /*color: #818078;*/
+    /*background-color: #fcfcfa;*/
+}
+
+.hr-text1 {
+    font-family: Futura, sans-serif;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    /*opacity: .5;*/
+    margin: 2vmin 0 3vmin 0;
+}
+
+.hr-text1::before {
+    content: '';
+    /* use the linear-gradient for the fading effect
+    use a solid background color for a solid bar*/
+    opacity: 0.5;
+   /* background: linear-gradient(to right, transparent, #818078, transparent); */
+    background: linear-gradient(to right, transparent, darkblue, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text1::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element... */
+    color: white;    
+    /*color: #818078;*/
+    /*background-color: #fcfcfa;*/
+}
+
+/* -------------- */
 
 .content__button {
 	position: absolute;
@@ -1352,4 +1443,97 @@ button:focus {
     
     /* -------------- */
     
+    /* INSERITO DA ME */
+    
+    
+.content__desc2 {
+    font-size: 2vmin;
+	text-align: center;
+	margin: 0 0 0 0;
+    /* Inserito da me */
+    color: white;
+}
+.hr-text {
+    font-family: Futura, sans-serif;
+    font-size: 3.5vmin;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    /*opacity: .5;*/
+    margin: 3vmin 0 3vmin 0;
+}
+
+.hr-text::before {
+    content: '';
+    /* use the linear-gradient for the fading effect
+    use a solid background color for a solid bar*/
+    opacity: 0.5;
+   /* background: linear-gradient(to right, transparent, #818078, transparent); */
+    background: linear-gradient(to right, transparent, darkblue, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element... */
+    color: white;    
+    /*color: #818078;*/
+    /*background-color: #fcfcfa;*/
+}
+
+.hr-text1 {
+    font-family: Futura, sans-serif;
+    font-size: 3.5vmin;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    /*opacity: .5;*/
+    margin: 2vmin 0 3vmin 0;
+}
+
+.hr-text1::before {
+    content: '';
+    /* use the linear-gradient for the fading effect
+    use a solid background color for a solid bar*/
+    opacity: 0.5;
+   /* background: linear-gradient(to right, transparent, #818078, transparent); */
+    background: linear-gradient(to right, transparent, darkblue, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text1::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element... */
+    color: white;    
+    /*color: #818078;*/
+    /*background-color: #fcfcfa;*/
+}
+
+/* -------------- */
 }

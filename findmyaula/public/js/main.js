@@ -47,7 +47,7 @@
 			}
 		},
 		// the mall element
-		mall = document.querySelector('.mall'),
+        mall = document.querySelector('.mall'),
 		// mall´s levels wrapper
 		mallLevelsEl = mall.querySelector('.levels'),
 		// mall´s levels
@@ -110,9 +110,127 @@
             Libere[1][k] = Math.floor(Math.random() * 3)
         }
     
-    
-    
+        /* LETTURA DEL FILE */
+        
+        var file1 = new XMLHttpRequest();
+        var file2 = new XMLHttpRequest();
+        var file3 = new XMLHttpRequest();
 
+        file1.open('GET', '../file/PoloAPrimoPiano.txt', false);
+        file1.send(null);
+
+        file2.open('GET', '../file/PoloASecondoPiano.txt', false);
+        file2.send(null);
+    
+        file3.open('GET', '../file/PoloB.txt', false);
+        file3.send(null);
+    
+        var PrimoPiano = file1.responseText.split('\n');
+        var SecondoPiano = file2.responseText.split('\n');
+        var PoloB = file3.responseText.split('\n');
+
+    /*
+        for(var c=0; c<(PrimoPiano.length-1); c++){
+            var fields = PrimoPiano[c].split('?');
+            if(fields[0] == 8){
+                console.log(fields[1]);
+                console.log(fields[2]);
+                console.log(fields[3]);
+                console.log(fields[4]);
+                console.log(fields[5]);
+                console.log(fields[6]);
+                console.log(fields[7]);
+                console.log(fields[8]);
+            }
+            else{
+                console.log(fields[1]);
+                console.log(fields[2]);
+                console.log(fields[3]);
+                console.log(fields[4]);
+                console.log(fields[5]);
+            }
+        }
+            */
+    
+    
+        for(var aula=1; aula<9; aula++){
+            for(var ora=7; ora<21; ora++){
+                /*var element = document.getElementById("A10" + aula + ora);*/
+                for(var c=0; c<(PrimoPiano.length-1); c++){
+                    var fields = PrimoPiano[c].split('?');
+                    if(fields[1] == aula){
+                        if(fields[2] == ora){
+                            for(var durata=ora; durata<fields[3]; durata++){
+                                var element = document.getElementById("A10" + aula + durata);
+                                var Materia = fields[4].split('-');
+                                if(fields[0] == 8){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                }
+                                if(fields[0] == 5){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                }
+                            }
+                        }
+                    }
+                }    
+            }
+        }    
+    
+    
+        for(var aula=1; aula<10; aula++){
+            for(var ora=7; ora<21; ora++){
+                for(var c=0; c<(SecondoPiano.length-1); c++){
+                    var fields = SecondoPiano[c].split('?');
+                    if(fields[1] == aula){
+                        if(fields[2] == ora){
+                            for(var durata=ora; durata<fields[3]; durata++){
+                                var element = document.getElementById("A10" + aula + durata);
+                                var Materia = fields[4].split('-');
+                                if(fields[0] == 8){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                }
+                                if(fields[0] == 5){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                }
+                            }
+                        }
+                    }
+                }    
+            }
+        }
+    
+        for(var aula=10; aula<25; aula++){
+            for(var ora=7; ora<21; ora++){
+                for(var c=0; c<(SecondoPiano.length-1); c++){
+                    var fields = SecondoPiano[c].split('?');
+                    if(fields[1] == aula){
+                        if(fields[2] == ora){
+                            for(var durata=ora; durata<fields[3]; durata++){
+                                var element = document.getElementById("A1" + aula + durata);
+                                var Materia = fields[4].split('-');
+                                if(fields[0] == 8){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                }
+                                if(fields[0] == 5){
+                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                }
+                            }
+                        }
+                    }
+                }    
+            }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+        /* FINE LETTURA DEL FILE */
+
+    
 	function init() {
 		// init/bind events
 		initEvents();
@@ -648,43 +766,7 @@
             }
         }
     }
-    
-    /* -------------- */
-    
-    
-    /* Inserito da me */
-    /* FUNZIONE CHE FA LO SCRAPING DELL'ORARIO */
-    
-    /*
-    var check = document.getElementById('basicXHRButton');
-    check.onclick = function(){
-        
-        alert("Francesco!");
-        
-        // Loading the jQuery code
-        request = new XMLHttpRequest();
-        request.open("POST", "https://easyroom.unitn.it/Orario/rooms_call.php", true);
-        /*
-        request.setRequestHeader('X-Referer', 'https://easyroom.unitn.it/Orario/index.php?sede=E0503&date=08-11-2017&view=rooms&include=rooms&_lang=it&empty_box=0&');
-        
-        request.setRequestHeader("Origin", "https://easyroom.unitn.it");
-        request.setRequestHeader("Access-Control-Request-Origin", "https://easyroom.unitn.it");
-        
-        request.send("?form-type=rooms&sede=E0503&date=08-11-2017&_lang=it");
-        
-        request.onreadystatechange = function() {
-            if(request.readyState === 4) { // What does this even mean?
-                if(request.status === 200) {
-                    console.log(request.responseText);
-                    alert("Done using XHR!");
-                }
-            }
-        }
-    };
-    
-    
-    /* -------------- */
-	
+    	
 	init();
 
 })(window);
