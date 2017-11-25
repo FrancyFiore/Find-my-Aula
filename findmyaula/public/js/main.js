@@ -164,10 +164,20 @@
                                 var element = document.getElementById("A10" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    }
                                 }
                                 if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    }
                                 }
                             }
                         }
@@ -184,13 +194,23 @@
                     if(fields[1] == aula){
                         if(fields[2] == ora){
                             for(var durata=ora; durata<fields[3]; durata++){
-                                var element = document.getElementById("A10" + aula + durata);
+                                var element = document.getElementById("A20" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8]
+                                    }
                                 }
                                 if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    }
                                 }
                             }
                         }
@@ -206,13 +226,23 @@
                     if(fields[1] == aula){
                         if(fields[2] == ora){
                             for(var durata=ora; durata<fields[3]; durata++){
-                                var element = document.getElementById("A1" + aula + durata);
+                                var element = document.getElementById("A2" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8]
+                                    }
                                 }
                                 if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    if(Materia[1] != 'n0'){
+                                        element.innerHTML = "<strong>" + Materia[0] + "-" + Materia[1] + "</strong>";
+                                    }
+                                    else{
+                                        element.innerHTML = "<strong>" + Materia[0] + "</strong>";
+                                    }
                                 }
                             }
                         }
