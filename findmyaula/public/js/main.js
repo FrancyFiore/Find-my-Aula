@@ -109,7 +109,24 @@
         for (var k = 0; k < 24; k++){ /* da A201 a A224 */
             Libere[1][k] = Math.floor(Math.random() * 3)
         }
+        
     
+        /* Array per orari */
+        var PrimoPianoOrario = new Array(9) /* A101 - A108 */
+        for(var i=0; i<9; i++){
+            PrimoPianoOrario[i] = new Array(24); /* 0-23 ore */
+        }
+    
+        var SecondoPianoOrario = new Array(25) /* A201 - A224 + lab */
+        for(var i=0; i<25; i++){
+            SecondoPianoOrario[i] = new Array(24); /* 0-23 ore */
+        }
+    
+      /*  var PoloBOrario = new Array(8) /* B101 - B107 */
+    /*    for(var i=0; i<24; i++){
+      /*      PoloBOrario[i] = new Array(24); /* 0-23 ore */
+    /*    }
+    */
         /* LETTURA DEL FILE */
         
         var file1 = new XMLHttpRequest();
@@ -121,13 +138,13 @@
 
         file2.open('GET', '../file/PoloASecondoPiano.txt', false);
         file2.send(null);
-    
+    /*
         file3.open('GET', '../file/PoloB.txt', false);
         file3.send(null);
-    
+    */
         var PrimoPiano = file1.responseText.split('\n');
         var SecondoPiano = file2.responseText.split('\n');
-        var PoloB = file3.responseText.split('\n');
+       /* var PoloB = file3.responseText.split('\n'); */
     
         /* POLO A PRIMO PIANO */
         for(var aula=1; aula<9; aula++){
@@ -138,6 +155,10 @@
                     if(fields[1] == aula){
                         if(fields[2] == ora){
                             for(var durata=ora; durata<fields[3]; durata++){
+                                PrimoPianoOrario[aula-1][ora] = 2;
+                                if(PrimoPianoOrario[aula-1][ora-1] != 2){
+                                    PrimoPianoOrario[aula-1][ora-1] = 1;
+                                }
                                 var element = document.getElementById("A10" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
@@ -161,6 +182,10 @@
                     if(fields[1] == aula){
                         if(fields[2] == ora){
                             for(var durata=ora; durata<fields[3]; durata++){
+                                SecondoPianoOrario[aula-1][ora] = 2;
+                                if(SecondoPianoOrario[aula-1][ora-1] != 2){
+                                    SecondoPianoOrario[aula-1][ora-1] = 1;
+                                }
                                 var element = document.getElementById("A20" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
@@ -183,6 +208,10 @@
                     if(fields[1] == aula){
                         if(fields[2] == ora){
                             for(var durata=ora; durata<fields[3]; durata++){
+                                SecondoPianoOrario[aula-1][ora] = 2;
+                                if(SecondoPianoOrario[aula-1][ora-1] != 2){
+                                    SecondoPianoOrario[aula-1][ora-1] = 1;
+                                }
                                 var element = document.getElementById("A2" + aula + durata);
                                 var Materia = fields[4].split('-');
                                 if(fields[0] == 8){
@@ -204,6 +233,10 @@
                 if(fields[1] == 25){
                     if(fields[2] == ora){
                         for(var durata=ora; durata<fields[3]; durata++){
+                            SecondoPianoOrario[24][ora] = 2;
+                            if(SecondoPianoOrario[24][ora-1] != 2){
+                                SecondoPianoOrario[24][ora-1] = 1;
+                            }
                             var element = document.getElementById("A225" + durata);
                             if(fields[0] == 8){
                                 element.innerHTML = "<strong>" + fields[4] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
@@ -216,6 +249,23 @@
                 }
             }    
         }    
+    
+        /* METTO A 0 DOVE NON SOLO LIBERE LE AULE */
+        for(var a=0; a<9; a++){
+            for(var b=0; b<24; b++){
+                if(PrimoPianoOrario[a][b] != 2 && PrimoPianoOrario[a][b] != 1){
+                    PrimoPianoOrario[a][b] = 0;
+                }
+            }
+        }
+    
+        for(a=0; a<25; a++){
+            for(b=0; b<24; b++){
+                if(SecondoPianoOrario[a][b] != 2 && SecondoPianoOrario[a][b] != 1){
+                    SecondoPianoOrario[a][b] = 0;
+                }
+            }
+        }
     
         /* FINE LETTURA DEL FILE */
 
@@ -644,83 +694,72 @@
     
     /* Inserito da me */
     
-    var check = document.getElementById('AuleLibere');
+    
+var check = document.getElementById('AuleLibere');
     check.onchange = function(val){
         if (check.checked) { /* MOSTRO I COLORI IN CASO DI CHECKED DEL BOX */
             /*alert('Le Aule libere per più ore sono verdi.\nLe Aule libere per un ora sono gialle.\nLe Aule con lezioni sono rosse.')*/
             document.getElementById('Info').style.display = "block";
-            for(var j=0; j<8; j++){
-                if(Libere[0][j] == 0){ 
-
-                j++;
-                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + j + '"]'), 'map__space--libera');
-                j--;
-
-                }
-                else if(Libere[0][j] == 1){ 
-
-                j++;
-                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + j + '"]'), 'map__space--liberapoco');
-                j--;
-
-                }
-                else if(Libere[0][j] == 2){
-
-                j++;
-                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + j + '"]'), 'map__space--occupata');
-                j--;
-
-                }
-            }
             
-            for(var j=0; j<24; j++){  
-                if(j<9){
-                    if(Libere[1][j] == 0){ 
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + j + '"]'), 'map__space--libera');
-                    j--;
-
+            var today = new Date();
+            var ora = today.getHours();
+            /* var ora = 13; */
+            console.log(ora);
+            
+            /* A101 - A108 */
+            for(var aula=1; aula<9; aula++){
+                for(var c=0; c<(PrimoPiano.length-1); c++){
+                    var fields = PrimoPiano[c].split('?');
+                    var fields2 = PrimoPiano[c+1].split('?');
+                    if(fields[1] == aula){
+                        if(ora >= fields[2] && ora < fields[3]){
+                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
+                        }
+                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--liberapoco');
+                        }
+                        else {
+                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');  
+                        }
                     }
-                    else if(Libere[1][j] == 1){ 
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + j + '"]'), 'map__space--liberapoco');
-                    j--;
-
-                    }
-                    else if(Libere[1][j] == 2){
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + j + '"]'), 'map__space--occupata');
-                    j--;
-
-                    }
-                } 
-                else{
-                    if(Libere[1][j] == 0){ 
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + j + '"]'), 'map__space--libera');
-                    j--;
-
-                    }
-                    else if(Libere[1][j] == 1){ 
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + j + '"]'), 'map__space--liberapoco');
-                    j--;
-
-                    }
-                    else if(Libere[1][j] == 2){
-
-                    j++;
-                    classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + j + '"]'), 'map__space--occupata');
-                    j--;
-
-                    }
-                }
+                }    
             }
+            /* A201 - A209 */
+            for(var aula=1; aula<10; aula++){
+                for(var c=0; c<(SecondoPiano.length-1); c++){
+                    var fields = SecondoPiano[c].split('?');
+                    var fields2 = SecondoPiano[c+1].split('?');
+                    if(fields[1] == aula){
+                        if(ora >= fields[2] && ora < fields[3]){
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--occupata');
+                        }
+                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--liberapoco');
+                        }
+                        else {
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--libera');  
+                        }
+                    }
+                }    
+            }
+            /* A210 - A224 - LD Meccanica */
+            for(var aula=10; aula<26; aula++){
+                for(var c=0; c<(SecondoPiano.length-1); c++){
+                    var fields = SecondoPiano[c].split('?');
+                    var fields2 = SecondoPiano[c+1].split('?');
+                    if(fields[1] == aula){
+                        if(ora >= fields[2] && ora < fields[3]){
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--occupata');
+                        }
+                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--liberapoco');
+                        }
+                        else {
+                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--libera');  
+                        }
+                    }
+                }    
+            }  
         }
         else{ /* ELIMINAZIONE DEI COLORI IN CASO DI DECHECKED DEL BOX */
             document.getElementById('Info').style.display = "none";
