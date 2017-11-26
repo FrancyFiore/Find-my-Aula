@@ -564,7 +564,8 @@ button:focus {
  }
 
 .map__space--liberapoco{
- 	fill: greenyellow;
+ 	/*fill: greenyellow;*/
+    fill: gold;
  }
 
 .map__space--occupata{
@@ -629,7 +630,8 @@ button:focus {
 }
 
 .content__item[data-category='2'] .content__item-title {
-	color: #6584c7;
+	/*color: #6584c7;*/
+    color: darkturquoise;
 }
 
 .content__item[data-category='3'] .content__item-title {
@@ -917,7 +919,8 @@ button:focus {
 .grouped-by-category [data-category='2']:first-child::before,
 .grouped-by-category :not([data-category='2']) + [data-category='2']::before {
 	content: 'Secondo Piano';
-	color: #6584c7;
+	/*color: #6584c7;*/
+    color: darkturquoise;
 }
 
 .grouped-by-category [data-category='3']:first-child::before,
@@ -934,7 +937,7 @@ button:focus {
 }
 
 .list__item::after {
-	content: 'L' attr(data-level) ' / ' attr(data-space);
+	/*content: 'L' attr(data-level) ' / ' attr(data-space);*/
 	font-size: 0.65em;
 	line-height: 3;
 	position: absolute;
@@ -1142,7 +1145,8 @@ button:focus {
 	fill: #7cbf7f;
 }
 .pin[data-category='2'] .icon--pin {
-	fill: #6584c7;
+	/*fill: #6584c7;*/
+    fill: darkturquoise;
 }
 .pin[data-category='3'] .icon--pin {
 	fill: #dc4b7c;
@@ -1375,6 +1379,7 @@ button:focus {
 	}
 	.mallnav {
 		top: 4em;
+        z-index: 100;
 	}
 	.container {
 		overflow: hidden;
