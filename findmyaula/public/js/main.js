@@ -8,7 +8,7 @@
  * Copyright 2016, Codrops
  * http://www.codrops.com
  */
-;(function(window) {
+(function main(window) {
 
 	'use strict';
 
@@ -57,7 +57,7 @@
 		// surroundings elems
 		mallSurroundings = [].slice.call(mall.querySelectorAll('.surroundings')),
 		// selected level position
-		selectedLevel,
+		/*selectedLevel,*/
 		// navigation element wrapper
 		mallNav = document.querySelector('.mallnav'),
 		// show all mall´s levels ctrl
@@ -98,37 +98,7 @@
 		// close search ctrl
 		closeSearchCtrl = spacesListEl.querySelector('button.close-search');
     
-        //Varibile aule
-        var Libere = new Array(2);
-        for (var i = 0; i < 2; i++) {
-            Libere[i] = new Array(8);
-        }
-        for (var j = 0; j < 8; j++){ /* da A101 a A108 */
-            Libere[0][j] = Math.floor(Math.random() * 3)
-        }
-        for (var k = 0; k < 24; k++){ /* da A201 a A224 */
-            Libere[1][k] = Math.floor(Math.random() * 3)
-        }
-        
-    
-        /* Array per orari */
-        var PrimoPianoOrario = new Array(9) /* A101 - A108 */
-        for(var i=0; i<9; i++){
-            PrimoPianoOrario[i] = new Array(24); /* 0-23 ore */
-        }
-    
-        var SecondoPianoOrario = new Array(25) /* A201 - A224 + lab */
-        for(var i=0; i<25; i++){
-            SecondoPianoOrario[i] = new Array(24); /* 0-23 ore */
-        }
-    
-      /*  var PoloBOrario = new Array(8) /* B101 - B107 */
-    /*    for(var i=0; i<24; i++){
-      /*      PoloBOrario[i] = new Array(24); /* 0-23 ore */
-    /*    }
-    */
-        /* LETTURA DEL FILE */
-        
+        /* LETTURA DEL FILE */    
         var file1 = new XMLHttpRequest();
         var file2 = new XMLHttpRequest();
         var file3 = new XMLHttpRequest();
@@ -138,137 +108,17 @@
 
         file2.open('GET', '../file/PoloASecondoPiano.txt', false);
         file2.send(null);
-    /*
+
         file3.open('GET', '../file/PoloB.txt', false);
         file3.send(null);
-    */
+
         var PrimoPiano = file1.responseText.split('\n');
         var SecondoPiano = file2.responseText.split('\n');
-       /* var PoloB = file3.responseText.split('\n'); */
-    
-        /* POLO A PRIMO PIANO */
-        for(var aula=1; aula<9; aula++){
-            for(var ora=7; ora<21; ora++){
-                /*var element = document.getElementById("A10" + aula + ora);*/
-                for(var c=0; c<(PrimoPiano.length-1); c++){
-                    var fields = PrimoPiano[c].split('?');
-                    if(fields[1] == aula){
-                        if(fields[2] == ora){
-                            for(var durata=ora; durata<fields[3]; durata++){
-                                PrimoPianoOrario[aula-1][ora] = 2;
-                                if(PrimoPianoOrario[aula-1][ora-1] != 2){
-                                    PrimoPianoOrario[aula-1][ora-1] = 1;
-                                }
-                                var element = document.getElementById("A10" + aula + durata);
-                                var Materia = fields[4].split('-');
-                                if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                }
-                                if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                }
-                            }
-                        }
-                    }
-                }    
-            }
-        }    
-    
-        /* POLO A SECONDO PIANO A201 - A209 */
-        for(var aula=1; aula<10; aula++){
-            for(var ora=7; ora<21; ora++){
-                for(var c=0; c<(SecondoPiano.length-1); c++){
-                    var fields = SecondoPiano[c].split('?');
-                    if(fields[1] == aula){
-                        if(fields[2] == ora){
-                            for(var durata=ora; durata<fields[3]; durata++){
-                                SecondoPianoOrario[aula-1][ora] = 2;
-                                if(SecondoPianoOrario[aula-1][ora-1] != 2){
-                                    SecondoPianoOrario[aula-1][ora-1] = 1;
-                                }
-                                var element = document.getElementById("A20" + aula + durata);
-                                var Materia = fields[4].split('-');
-                                if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                }
-                                if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                }
-                            }
-                        }
-                    }
-                }    
-            }
-        }
-        /* POLO A SECONDO PIANO A210 - A224 */
-        for(var aula=10; aula<25; aula++){
-            for(var ora=7; ora<21; ora++){
-                for(var c=0; c<(SecondoPiano.length-1); c++){
-                    var fields = SecondoPiano[c].split('?');
-                    if(fields[1] == aula){
-                        if(fields[2] == ora){
-                            for(var durata=ora; durata<fields[3]; durata++){
-                                SecondoPianoOrario[aula-1][ora] = 2;
-                                if(SecondoPianoOrario[aula-1][ora-1] != 2){
-                                    SecondoPianoOrario[aula-1][ora-1] = 1;
-                                }
-                                var element = document.getElementById("A2" + aula + durata);
-                                var Materia = fields[4].split('-');
-                                if(fields[0] == 8){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                                }
-                                if(fields[0] == 5){
-                                    element.innerHTML = "<strong>" + Materia[0] + "</strong>";
-                                }
-                            }
-                        }
-                    }
-                }    
-            }
-        }
-        /* LABORATORIO SECONDO PIANO */
-        for(var ora=7; ora<21; ora++){
-            for(var c=0; c<(SecondoPiano.length-1); c++){
-                var fields = SecondoPiano[c].split('?');
-                if(fields[1] == 25){
-                    if(fields[2] == ora){
-                        for(var durata=ora; durata<fields[3]; durata++){
-                            SecondoPianoOrario[24][ora] = 2;
-                            if(SecondoPianoOrario[24][ora-1] != 2){
-                                SecondoPianoOrario[24][ora-1] = 1;
-                            }
-                            var element = document.getElementById("A225" + durata);
-                            if(fields[0] == 8){
-                                element.innerHTML = "<strong>" + fields[4] + "</strong>" + "<br />" + fields[6] + " " + fields[7] + "<br />" + fields[8];
-                            }
-                            if(fields[0] == 5){
-                                element.innerHTML = "<strong>" + fields[4] + "</strong>";
-                            }
-                        }
-                    }
-                }
-            }    
-        }    
-    
-        /* METTO A 0 DOVE NON SOLO LIBERE LE AULE */
-        for(var a=0; a<9; a++){
-            for(var b=0; b<24; b++){
-                if(PrimoPianoOrario[a][b] != 2 && PrimoPianoOrario[a][b] != 1){
-                    PrimoPianoOrario[a][b] = 0;
-                }
-            }
-        }
-    
-        for(a=0; a<25; a++){
-            for(b=0; b<24; b++){
-                if(SecondoPianoOrario[a][b] != 2 && SecondoPianoOrario[a][b] != 1){
-                    SecondoPianoOrario[a][b] = 0;
-                }
-            }
-        }
-    
+        var PoloB = file3.responseText.split('\n');     
         /* FINE LETTURA DEL FILE */
 
+    
+        console.log(selectedLevel);
     
 	function init() {
 		// init/bind events
@@ -433,6 +283,14 @@
 		if( isOpenContentArea ) {
 			closeContentArea();
 		}
+        /* Sistemo dopo aver cambiato ora a solo un piano */
+        selectedLevel = undefined;
+        
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "js/SetMateriaPoloA.js"; 
+        document.getElementsByTagName("head")[0].appendChild(script);
+        
 	}
 
 	/**
@@ -678,7 +536,6 @@
 	function openSearch() {
 		// shows all levels - we want to show all the spaces for smaller screens 
 		showAllLevels();
-
 		classie.add(spacesListEl, 'spaces-list--open');
 		classie.add(containerEl, 'container--overflow');
 	}
@@ -692,109 +549,160 @@
 	}
     
     
-    /* Inserito da me */
-    
-    
-var check = document.getElementById('AuleLibere');
-    check.onchange = function(val){
-        if (check.checked) { /* MOSTRO I COLORI IN CASO DI CHECKED DEL BOX */
-            /*alert('Le Aule libere per più ore sono verdi.\nLe Aule libere per un ora sono gialle.\nLe Aule con lezioni sono rosse.')*/
-            document.getElementById('Info').style.display = "block";
-            
-            var today = new Date();
-            var ora = today.getHours();
-            /* var ora = 13; */
-            console.log(ora);
-            
-            /* A101 - A108 */
-            for(var aula=1; aula<9; aula++){
-                for(var c=0; c<(PrimoPiano.length-1); c++){
-                    var fields = PrimoPiano[c].split('?');
-                    var fields2 = PrimoPiano[c+1].split('?');
-                    if(fields[1] == aula){
-                        if(ora >= fields[2] && ora < fields[3]){
-                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
-                        }
-                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
-                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--liberapoco');
-                        }
-                        else {
-                            classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');  
-                        }
-                    }
-                }    
-            }
-            /* A201 - A209 */
-            for(var aula=1; aula<10; aula++){
-                for(var c=0; c<(SecondoPiano.length-1); c++){
-                    var fields = SecondoPiano[c].split('?');
-                    var fields2 = SecondoPiano[c+1].split('?');
-                    if(fields[1] == aula){
-                        if(ora >= fields[2] && ora < fields[3]){
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--occupata');
-                        }
-                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--liberapoco');
-                        }
-                        else {
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--libera');  
-                        }
-                    }
-                }    
-            }
-            /* A210 - A224 - LD Meccanica */
-            for(var aula=10; aula<26; aula++){
-                for(var c=0; c<(SecondoPiano.length-1); c++){
-                    var fields = SecondoPiano[c].split('?');
-                    var fields2 = SecondoPiano[c+1].split('?');
-                    if(fields[1] == aula){
-                        if(ora >= fields[2] && ora < fields[3]){
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--occupata');
-                        }
-                        else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--liberapoco');
-                        }
-                        else {
-                            classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--libera');  
-                        }
-                    }
-                }    
-            }  
-        }
-        else{ /* ELIMINAZIONE DEI COLORI IN CASO DI DECHECKED DEL BOX */
-            document.getElementById('Info').style.display = "none";
-            for(var j=0; j<8; j++){
-                var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--libera');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--libera');
-                }
-                var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--liberapoco');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--liberapoco');
-                }
-                var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--occupata');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--occupata');
-                }
-            }
+    /* INSERIMENTO CODICE COLORAZIONE DELLE AULE POLO A */
+    if(document.getElementById('AuleLiberePoloA') != null){
+        var check = document.getElementById('AuleLiberePoloA');
+        check.onchange = function(val){
+            if (check.checked) { /* MOSTRO I COLORI IN CASO DI CHECKED DEL BOX */
+                document.getElementById("info").innerHTML = " Le verdi sono libere per più di un'ora, le gialle per meno e le rosse sono occupate.";
 
-            for(var j=0; j<24; j++){
-                var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--libera');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--libera');
+                var today = new Date();
+                var ora = today.getHours();
+                /*var ora = 13;*/
+                console.log(ora);
+
+                /* A101 - A108 */
+                for(var aula=1; aula<9; aula++){
+                    for(var c=0; c<(PrimoPiano.length-1); c++){
+                        var fields = PrimoPiano[c].split('?');
+                        var fields2 = PrimoPiano[c+1].split('?');
+                        if(fields[1] == aula){
+                            if(ora >= fields[2] && ora < fields[3]){
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
+                            }
+                            else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--liberapoco');
+                            }
+                            else {
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');  
+                            }
+                        }
+                    }    
                 }
-                var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--liberapoco');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--liberapoco');
+                /* A201 - A209 */
+                for(var aula=1; aula<10; aula++){
+                    for(var c=0; c<(SecondoPiano.length-1); c++){
+                        var fields = SecondoPiano[c].split('?');
+                        var fields2 = SecondoPiano[c+1].split('?');
+                        if(fields[1] == aula){
+                            if(ora >= fields[2] && ora < fields[3]){
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--occupata');
+                            }
+                            else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--liberapoco');
+                            }
+                            else {
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--libera');  
+                            }
+                        }
+                    }    
                 }
-                var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--occupata');
-                if( activeSpaceArea ) {
-                    classie.remove(activeSpaceArea, 'map__space--occupata');
+                /* A210 - A224 - LD Meccanica */
+                for(var aula=10; aula<26; aula++){
+                    for(var c=0; c<(SecondoPiano.length-1); c++){
+                        var fields = SecondoPiano[c].split('?');
+                        var fields2 = SecondoPiano[c+1].split('?');
+                        if(fields[1] == aula){
+                            if(ora >= fields[2] && ora < fields[3]){
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--occupata');
+                            }
+                            else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--liberapoco');
+                            }
+                            else {
+                                classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--libera');  
+                            }
+                        }
+                    }    
+                }  
+            }
+            else{ /* ELIMINAZIONE DEI COLORI IN CASO DI DECHECKED DEL BOX */
+                document.getElementById("info").innerHTML = " Mostra aule libere e no";
+                for(var j=0; j<8; j++){
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--libera');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--libera');
+                    }
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--liberapoco');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--liberapoco');
+                    }
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--occupata');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--occupata');
+                    }
+                }
+
+                for(var j=0; j<25; j++){
+                    var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--libera');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--libera');
+                    }
+                    var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--liberapoco');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--liberapoco');
+                    }
+                    var activeSpaceArea = mallLevels[1].querySelector('svg > .map__space--occupata');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--occupata');
+                    }
+                }
+            }
+        }
+    }else if(document.getElementById('AuleLiberePoloB') != null){
+
+    /* FINE INSERIMENTO COLORAZIONE DELLE AULE POLO A*/
+    
+        /* INSERIMENTO CODICE COLORAZIONE DELLE AULE POLO B*/
+        var check = document.getElementById('AuleLiberePoloB');
+        check.onchange = function(val){
+            if (check.checked) { /* MOSTRO I COLORI IN CASO DI CHECKED DEL BOX */
+                document.getElementById("info").innerHTML = " Le verdi sono libere per più di un'ora, le gialle per meno e le rosse sono occupate.";
+
+                var today = new Date();
+                var ora = today.getHours();
+               /* var ora = 13;*/
+                console.log(ora);
+                
+                /* B106 - B107 */
+                for(var aula=6; aula<8; aula++){
+                    for(var c=0; c<(PoloB.length-1); c++){
+                        var fields =PoloB[c].split('?');
+                        var fields2 = PoloB[c+1].split('?');
+                        if(fields[1] == aula){
+                            if(ora >= fields[2] && ora < fields[3]){
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
+                            }
+                            else if((ora+1) == fields[2] || (ora+1) == fields2[2]){
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--liberapoco');
+                            }
+                            else {
+                                classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');  
+                            }
+                        }
+                    }    
+                }
+            }
+            else{ /* ELIMINAZIONE DEI COLORI IN CASO DI DECHECKED DEL BOX */
+                document.getElementById("info").innerHTML = " Mostra aule libere e no";
+                for(var j=0; j<2; j++){
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--libera');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--libera');
+                    }
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--liberapoco');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--liberapoco');
+                    }
+                    var activeSpaceArea = mallLevels[0].querySelector('svg > .map__space--occupata');
+                    if( activeSpaceArea ) {
+                        classie.remove(activeSpaceArea, 'map__space--occupata');
+                    }
                 }
             }
         }
     }
-    	
+    /* FINE INSERIMENTO COLORAZIONE DELLE AULE POLO B */
 	init();
 
 })(window);
