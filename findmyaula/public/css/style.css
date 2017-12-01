@@ -29,11 +29,14 @@ body {
 	color: #515158;
 	/*background: #f0f0f0;*/ /* SFONDO ORIGINALE */
     /*background: linear-gradient(to right, #05a, #f05);*/ /* SFONDO SFUMATO */
-   /* background: linear-gradient(to right, rgba(0, 85, 170, 0.8) , rgba(255, 0, 85, 0.8));*/ /* SFONDO SFUMATO CON OPACITA VARIABILE*/
-    background-image: url('../img/pattern.svg'); /* SFONDO PATTERN */
-    background-size: cover;
+    /*background: linear-gradient(to right, rgba(0, 85, 170, 0.8) , rgba(255, 0, 85, 0.8));*/ /* SFONDO SFUMATO CON OPACITA VARIABILE*/
+    /*background-image: url('../img/pattern.svg'); /* SFONDO PATTERN */
+    background: linear-gradient(to right, #de8228, #8074aa); /* SFONDO SFUMATO */
+  /* Rimosso 
+	background-size: cover;
     background-attachment: fixed;
-    -webkit-font-smoothing: antialiased;
+    background-position: fixed; */
+	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
@@ -82,7 +85,7 @@ button:focus {
 
 .codrops-header {
 	position: absolute;
-	z-index: 100;
+	z-index: 12;
 	top: 0;
 	left: 0;
 	display: -webkit-flex;
@@ -108,7 +111,6 @@ button:focus {
 }
 
 /* Inserito da me */
-
 .codrops-header a:hover{
     color: #515158;
 }
@@ -476,6 +478,63 @@ button:focus {
 	/*background: #d7d7dc;*/
     background: rgba(0, 85, 170, 0.7);
 }
+/* BOTTONE SCELTA ORA */
+.sceltaora {
+    display: block;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.boxbutton2 {
+    display: inline;
+    width: 35%;
+	height: 25%;
+	margin: 0;
+	padding: 0;
+	color: #a9a9a9;
+	border: 0;
+    background: rgba(0, 85, 170, 0.7);
+    border-right: 1px solid black;
+    -webkit-border-radius: 0;
+}
+
+.boxbutton3 {
+    display: inline;
+    width: 35%;
+	height: 25%;
+	margin: 0;
+	padding: 0;
+	color: #a9a9a9;
+	border: 0;
+    background: rgba(0, 85, 170, 0.7);
+    -webkit-border-radius: 0;
+}
+
+.boxbutton2:hover{
+    color: white;
+}
+
+.boxbutton3:hover{
+    color: white;
+}
+
+.boxora{
+    display: inline;
+    width: 30%;
+	height: 25%;
+	margin: 0;
+	padding: 0;
+	color: #a9a9a9;
+	border: 0;
+    background: rgba(0, 85, 170, 0.7);
+    border-right: 1px solid black;
+    -webkit-border-radius: 0;
+}
+
+.boxora:hover{
+    color: white;
+}
+/* FINE */
 
 .boxbutton--dark {
 	background: rgba(0, 60, 119, 0.7);
@@ -640,7 +699,8 @@ button:focus {
 
 .content__item[data-category='4'] .content__item-title {
 	/*color: #8d65e0;*/
-    color: #1A7DD7
+    /*color: #1A7DD7;*/
+    color: indigo;
 }
 
 .content__item--hover .content__item-title {
@@ -709,16 +769,12 @@ button:focus {
     color: black;
     text-align: center;
     height: 1.5em;
-    /*opacity: .5;*/
     margin: 3vmin 0 3vmin 0;
 }
 
 .hr-text::before {
     content: '';
-    /* use the linear-gradient for the fading effect
-    use a solid background color for a solid bar*/
     opacity: 0.5;
-   /* background: linear-gradient(to right, transparent, #818078, transparent); */
     background: linear-gradient(to right, transparent, darkblue, transparent);
     position: absolute;
     left: 0;
@@ -734,10 +790,7 @@ button:focus {
     color: black;
     padding: 0 .5em;
     line-height: 1.5em;
-    /* this is really the only tricky part, you need to specify the background color of the container element... */
     color: white;    
-    /*color: #818078;*/
-    /*background-color: #fcfcfa;*/
 }
 
 .hr-text1 {
@@ -749,16 +802,12 @@ button:focus {
     color: black;
     text-align: center;
     height: 1.5em;
-    /*opacity: .5;*/
     margin: 2vmin 0 3vmin 0;
 }
 
 .hr-text1::before {
-    content: '';
-    /* use the linear-gradient for the fading effect
-    use a solid background color for a solid bar*/
+    content: '';/
     opacity: 0.5;
-   /* background: linear-gradient(to right, transparent, #818078, transparent); */
     background: linear-gradient(to right, transparent, darkblue, transparent);
     position: absolute;
     left: 0;
@@ -774,10 +823,17 @@ button:focus {
     color: black;
     padding: 0 .5em;
     line-height: 1.5em;
-    /* this is really the only tricky part, you need to specify the background color of the container element... */
     color: white;    
-    /*color: #818078;*/
-    /*background-color: #fcfcfa;*/
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 /* -------------- */
@@ -839,7 +895,8 @@ button:focus {
 
 .label {
 	position: absolute;
-	top: 4em;
+	/*top: 4em;*/
+    top: 6em;
 	right: 0;
 }
 
@@ -933,11 +990,13 @@ button:focus {
 .grouped-by-category :not([data-category='4']) + [data-category='4']::before {
 	content: 'Laboratori';
 	/*color: #8d65e0;*/
-    color: #1A7DD7
+    /*color: #1A7DD7;*/
+    color: indigo;
 }
 
+/*
 .list__item::after {
-	/*content: 'L' attr(data-level) ' / ' attr(data-space);*/
+	content: 'L' attr(data-level) ' / ' attr(data-space);
 	font-size: 0.65em;
 	line-height: 3;
 	position: absolute;
@@ -947,6 +1006,7 @@ button:focus {
 	pointer-events: none;
 	color: #c7c7c9;
 }
+*/
 
 .list__link {
 	font-size: 0.85em;
@@ -1153,7 +1213,7 @@ button:focus {
 }
 .pin[data-category='4'] .icon--pin {
 	/*fill: #8d65e0;*/
-    fill: #1A7DD7
+    fill: #1A7DD7;
 }
 
 .pin--active .icon--pin {
@@ -1232,7 +1292,9 @@ button:focus {
 .pin--3-4 { top: 61vmin; left: 57vmin; }
 .pin--3-5 { top: 58vmin; left: 25vmin; }
 .pin--3-6 { top: 30vmin; left: 57vmin; }
-.pin--3-7 { top: 32vmin; left: 37vmin; }
+.pin--3-7 { top: 17vmin; left: 37vmin; }
+.pin--3-9 { top: 52vmin; left: 37vmin; }
+.pin--3-10 { top: 32vmin; left: 37vmin; }
 
 /* Pins for floor 4 */
 .pin--4-1 { top: 55vmin; left: 21vmin; }
@@ -1244,7 +1306,6 @@ button:focus {
 .pin--4-7 { top: 58vmin; left: 10vmin; }
 
 /* Inserito da me */
-
 .icon--text {
     position: absolute;
     top: 18%;
@@ -1269,9 +1330,7 @@ button:focus {
 
 /* ----------------- */
 
-
 /* Inserito da me HOME */
-
 
 /*Main button class
 ==========================*/
@@ -1379,7 +1438,6 @@ button:focus {
 	}
 	.mallnav {
 		top: 4em;
-        z-index: 100;
 	}
 	.container {
 		overflow: hidden;
@@ -1390,54 +1448,36 @@ button:focus {
 	.content__item {
 		overflow: auto;
 	}
-	.codrops-header {
-		padding-right: 4em;
-		text-align: left;
-	}
-    
+    .codrops-header {
+        padding-right: 5em;
+        text-align: left;
+    }
     /* Inserito da me */
     
-    body{
-        background-size: cover;
-        background-attachment: fixed;
-    }
-        
-    .codrops-header {
-        position: absolute;
-        z-index: 100;
-        top: 0;
-        left: 0;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: flex;
-        -webkit-align-items: center;
-        -moz-align-items: center;
-        align-items: center;
-        padding: 1.5em 1em;
-        padding-right: 5em;
-        text-align: center;
-    }
+ /*   body{
+       /* background-image: url('../img/pattern_mobile.svg'); /* SFONDO PATTERN */
+	/*	background: linear-gradient(to right, #de8228, #8074aa); /* SFONDO SFUMATO */
+    /*	background-size: cover;
+    	background-attachment: fixed;
+    	background-position: fixed;
+		background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+
+        height:100vh;
+    }*/
     
     .codrops-header h1 {
         font-size: 0.7em;
-        font-weight: normal;
-        line-height: 1;
-        margin: 0 0 0 1em;
-        color: white;
-    }
-    
-    .codrops-header a: hover{
-        color: #515158;
     }
     
     .sopra{
         padding-left: 15px;
-        color: white;
         font-size: 0.7em;
     }
     
     .icon--text {
-        position: absolute;
         top: 18%;
         left: 18%;
         width: 65%;
@@ -1451,94 +1491,29 @@ button:focus {
     /* INSERITO DA ME */
     
     
-.content__desc2 {
-    font-size: 2vmin;
-	text-align: center;
-	margin: 0 0 0 0;
-    /* Inserito da me */
-    color: white;
-}
-.hr-text {
-    font-family: Futura, sans-serif;
-    font-size: 3.5vmin;
-    line-height: 1em;
-    position: relative;
-    outline: 0;
-    border: 0;
-    color: black;
-    text-align: center;
-    height: 1.5em;
-    /*opacity: .5;*/
-    margin: 3vmin 0 3vmin 0;
-}
-
-.hr-text::before {
-    content: '';
-    /* use the linear-gradient for the fading effect
-    use a solid background color for a solid bar*/
-    opacity: 0.5;
-   /* background: linear-gradient(to right, transparent, #818078, transparent); */
-    background: linear-gradient(to right, transparent, darkblue, transparent);
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 1px;
-}
-
-.hr-text::after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-    color: black;
-    padding: 0 .5em;
-    line-height: 1.5em;
-    /* this is really the only tricky part, you need to specify the background color of the container element... */
-    color: white;    
-    /*color: #818078;*/
-    /*background-color: #fcfcfa;*/
-}
-
-.hr-text1 {
-    font-family: Futura, sans-serif;
-    font-size: 3.5vmin;
-    line-height: 1em;
-    position: relative;
-    outline: 0;
-    border: 0;
-    color: black;
-    text-align: center;
-    height: 1.5em;
-    /*opacity: .5;*/
-    margin: 2vmin 0 3vmin 0;
-}
-
-.hr-text1::before {
-    content: '';
-    /* use the linear-gradient for the fading effect
-    use a solid background color for a solid bar*/
-    opacity: 0.5;
-   /* background: linear-gradient(to right, transparent, #818078, transparent); */
-    background: linear-gradient(to right, transparent, darkblue, transparent);
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 1px;
-}
-
-.hr-text1::after {
-    content: attr(data-content);
-    position: relative;
-    display: inline-block;
-    color: black;
-    padding: 0 .5em;
-    line-height: 1.5em;
-    /* this is really the only tricky part, you need to specify the background color of the container element... */
-    color: white;    
-    /*color: #818078;*/
-    /*background-color: #fcfcfa;*/
-}
+    .content__desc2 {
+        font-size: 2vmin;
+    }
+    
+    .hr-text {
+        font-size: 3.5vmin;
+    }
+    
+    .hr-text1 {
+        font-size: 3.5vmin;
+    }
+    
+    .boxbutton2 {
+        height: 30%;
+    }
+    
+    .boxbutton3 {
+        height: 30%;
+    }
+    
+    .boxora {
+        height: 30%;
+    }
 
 /* -------------- */
 }
