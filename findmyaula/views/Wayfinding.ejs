@@ -1,111 +1,121 @@
 <!doctype html>
 <html>
     <head>
-        <title>TrovaVia</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="css/example.css">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+		<title>TrovaVia</title>
+		<meta name="description" content="An interactive 3D University map concept with a search and pin indicators for every level. " />
+		<meta name="keywords" content="University map, 3d, css, javascript, pin, levels, floor map" />
+		<meta name="Francesco Fiorelli" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr-custom.js"></script>
     </head>
-    <body>
-        <div id="content">
-            <div id="mapLoading">Caricamento</div>
-            <div id="myMaps"></div>
-            <div id="controls">
-                <label for="beginSelect">Partenza da</label>
-                <select id="beginSelect">
-                    <option value="Seleziona">Seleziona</option>
-                    <option value="Entrata">Entrata</option>
-                    <option value="A101">A101 - Aula Magna</option>
-                    <option value="A102">A102</option>
-                    <option value="A103">A103</option>
-                    <option value="A104">A104</option>
-                    <option value="A105">A105</option>
-                    <option value="A106">A106</option>
-                    <option value="A107">A107</option>
-                    <option value="A108">A108</option>
-                    <option value="AulaStudio">Aula Studio</option>
-                    
-                    <option value="A201">A201</option>
-                    <option value="A202">A202</option>
-                    <option value="A203">A203</option>
-                    <option value="A204">A204</option>
-                    <option value="A205">A205</option>
-                    <option value="A206">A206</option>
-                    <option value="A207">A207</option>
-                    <option value="A208">A208</option>
-                    <option value="A209">A209</option>
-                    <option value="A210">A210</option>
-                    <option value="A211">A211</option>
-                    <option value="A212">A212</option>
-                    <option value="A213">A213</option>
-                    <option value="A214">A214</option>
-                    <option value="A215">A215</option>
-                    <option value="A216">A216</option>
-                    <option value="A217">A217</option>
-                    <option value="A218">A218</option>
-                    <option value="A219">A219</option>
-                    <option value="A220">A220</option>
-                    <option value="A221">A221</option>
-                    <option value="A222">A222</option>
-                    <option value="A223">A223</option>
-                    <option value="A224">A224</option>
 
-                </select>
-                <label for="endSelect">Mostra la strada per</label>
-                <select id="endSelect">
-                    <option value="Seleziona">Seleziona</option>
-                    <option value="Entrata">Entrata</option>
-                    <option value="A101">A101 - Aula Magna</option>
-                    <option value="A102">A102</option>
-                    <option value="A103">A103</option>
-                    <option value="A104">A104</option>
-                    <option value="A105">A105</option>
-                    <option value="A106">A106</option>
-                    <option value="A107">A107</option>
-                    <option value="A108">A108</option>
-                    <option value="AulaStudio">Aula Studio</option>
-                    
-                    <option value="A201">A201</option>
-                    <option value="A202">A202</option>
-                    <option value="A203">A203</option>
-                    <option value="A204">A204</option>
-                    <option value="A205">A205</option>
-                    <option value="A206">A206</option>
-                    <option value="A207">A207</option>
-                    <option value="A208">A208</option>
-                    <option value="A209">A209</option>
-                    <option value="A210">A210</option>
-                    <option value="A211">A211</option>
-                    <option value="A212">A212</option>
-                    <option value="A213">A213</option>
-                    <option value="A214">A214</option>
-                    <option value="A215">A215</option>
-                    <option value="A216">A216</option>
-                    <option value="A217">A217</option>
-                    <option value="A218">A218</option>
-                    <option value="A219">A219</option>
-                    <option value="A220">A220</option>
-                    <option value="A221">A221</option>
-                    <option value="A222">A222</option>
-                    <option value="A223">A223</option>
-                    <option value="A224">A224</option>
-                </select>
-                <!--
-                <label for="accessible">Accessible</label>
-                <input id="accessible" type="checkbox" name="accessible" value="Accessible" />
-                -->
+	<body>
+		<div class="container">
+			<div>
+				<header class="codrops-header">
+					<h1><a href="/">Interactive University Map</a></h1>
+				</header>
+                <div class="ph-container">
+                    <div class="ph-container2">
+                        <div class="ph-float">
+                            <div id="mapLoading">Caricamento</div>
+            				<div id="myMaps"></div>
+            				<div id="controls">
+								<p>Scegli la partenza e la destinazione usando i corrispondenti drop-down menu.</p>
+								<label for="beginSelect">Partenza da</label>
+								<select id="beginSelect">
+									<option value="Seleziona">Seleziona</option>
+									<option value="Entrata">Entrata</option>
+									<option value="A101">A101 - Aula Magna</option>
+									<option value="A102">A102</option>
+									<option value="A103">A103</option>
+									<option value="A104">A104</option>
+									<option value="A105">A105</option>
+									<option value="A106">A106</option>
+									<option value="A107">A107</option>
+									<option value="A108">A108</option>
+									<option value="AulaStudio">Aula Studio</option>
+
+									<option value="A201">A201</option>
+									<option value="A202">A202</option>
+									<option value="A203">A203</option>
+									<option value="A204">A204</option>
+									<option value="A205">A205</option>
+									<option value="A206">A206</option>
+									<option value="A207">A207</option>
+									<option value="A208">A208</option>
+									<option value="A209">A209</option>
+									<option value="A210">A210</option>
+									<option value="A211">A211</option>
+									<option value="A212">A212</option>
+									<option value="A213">A213</option>
+									<option value="A214">A214</option>
+									<option value="A215">A215</option>
+									<option value="A216">A216</option>
+									<option value="A217">A217</option>
+									<option value="A218">A218</option>
+									<option value="A219">A219</option>
+									<option value="A220">A220</option>
+									<option value="A221">A221</option>
+									<option value="A222">A222</option>
+									<option value="A223">A223</option>
+									<option value="A224">A224</option>
+								</select>
+								<br/>
+								<label for="endSelect">Mostra la strada per</label>
+								<select id="endSelect">
+									<option value="Seleziona">Seleziona</option>
+									<option value="Entrata">Entrata</option>
+									<option value="A101">A101 - Aula Magna</option>
+									<option value="A102">A102</option>
+									<option value="A103">A103</option>
+									<option value="A104">A104</option>
+									<option value="A105">A105</option>
+									<option value="A106">A106</option>
+									<option value="A107">A107</option>
+									<option value="A108">A108</option>
+									<option value="AulaStudio">Aula Studio</option>
+
+									<option value="A201">A201</option>
+									<option value="A202">A202</option>
+									<option value="A203">A203</option>
+									<option value="A204">A204</option>
+									<option value="A205">A205</option>
+									<option value="A206">A206</option>
+									<option value="A207">A207</option>
+									<option value="A208">A208</option>
+									<option value="A209">A209</option>
+									<option value="A210">A210</option>
+									<option value="A211">A211</option>
+									<option value="A212">A212</option>
+									<option value="A213">A213</option>
+									<option value="A214">A214</option>
+									<option value="A215">A215</option>
+									<option value="A216">A216</option>
+									<option value="A217">A217</option>
+									<option value="A218">A218</option>
+									<option value="A219">A219</option>
+									<option value="A220">A220</option>
+									<option value="A221">A221</option>
+									<option value="A222">A222</option>
+									<option value="A223">A223</option>
+									<option value="A224">A224</option>
+								</select>
+								<!--
+								<label for="accessible">Accessible</label>
+								<input id="accessible" type="checkbox" name="accessible" value="Accessible" />
+								-->
+							</div>
+                        </div> 
+                    </div>  
+                </div>		
             </div>
         </div>
-        <div>
-            <p>Scegli la partenza e la destinazione usando i corrispondenti drop-down menu.</p>
-        </div>
-
-        <!--  ONLINE
-        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script> 
-        <script src="http://wafi.iit.cnr.it/webvis/tmp/wayfinding/scripts/jquery.wayfinding.js"></script>
-        -->
-
+    
         <!-- OFFLINE -->
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/d3.js"></script> 
