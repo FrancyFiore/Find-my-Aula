@@ -250,6 +250,10 @@ button:focus {
 	transform-style: preserve-3d;
 }
 
+.levels2 {
+	margin: -32vmin 0 0 -60vmin;
+}
+
 .surroundings,
 .levels {
 	-webkit-transform: rotateX(70deg) rotateZ(-45deg) translateZ(-15vmin);
@@ -841,7 +845,7 @@ button:focus {
 .content__button {
 	position: absolute;
 	top: -100%;
-	right: 0;
+
 	-webkit-transition: opacity 0.3s 0.7s;
 	-moz-transition: opacity 0.3s 0.7s;
 	transition: opacity 0.3s 0.7s;
@@ -1199,6 +1203,261 @@ button:focus {
 	-moz-transition-delay: 0.02s;
 	transition-delay: 0.02s;
 }
+.pin:nth-child(26) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(27) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(28) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(29) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(30) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(31) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(32) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(33) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(34) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(35) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(36) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(37) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(38) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(39) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(40) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(41) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(42) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(43) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(44) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(45) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(46) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(47) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(48) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(49) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(50) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(51) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(52) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(53) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(54) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(55) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(56) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(57) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(58) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(59) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(60) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(61) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(62) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(63) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(64) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(65) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(66) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(67) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(68) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(69) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(70) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(72) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(71) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(73) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(74) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(75) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+.pin:nth-child(76) .pin__icon {
+	-webkit-transition-delay: 0.02s;
+	-moz-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
 
 
 .pin[data-category='1'] .icon--pin {
@@ -1225,6 +1484,37 @@ button:focus {
 	width: 100%;
 	height: 100%;
 }
+
+
+/* PIN SHORT */
+
+.pin[data-category='1'] .icon--pinshort {
+	fill: #7cbf7f;
+}
+.pin[data-category='2'] .icon--pinshort {
+	/*fill: #6584c7;*/
+    fill: darkturquoise;
+}
+.pin[data-category='3'] .icon--pinshort {
+	fill: #dc4b7c;
+}
+.pin[data-category='4'] .icon--pinshort {
+	/*fill: #8d65e0;*/
+    fill: #1A7DD7;
+}
+
+.pin--active .icon--pinshort {
+	stroke: #515158;
+	stroke-width: 15px;
+}
+
+.icon--pinshort {
+	width: 100%;
+	height: 100%;
+}
+
+/* --------- */
+
 
 .icon--logo {
 	position: absolute;
@@ -1297,13 +1587,91 @@ button:focus {
 .pin--3-10 { top: 32vmin; left: 37vmin; }
 
 /* Pins for floor 4 */
-.pin--4-1 { top: 55vmin; left: 21vmin; }
-.pin--4-2 { top: 18vmin; left: 20vmin; }
-.pin--4-3 { top: 21vmin; left: 88vmin; }
-.pin--4-4 { top: 52vmin; left: 74vmin; }
-.pin--4-5 { top: 33vmin; left: 38vmin; }
-.pin--4-6 { top: 39vmin; left: 56vmin; }
-.pin--4-7 { top: 58vmin; left: 10vmin; }
+/* PRIMA FILA */
+.pin--4-1 { top: 31vmin; left: 100vmin; }
+.pin--4-2 { top: 21vmin; left: 96vmin; }
+.pin--4-3 { top: 31vmin; left: 92vmin; }
+.pin--4-4 { top: 21vmin; left: 88vmin; }
+.pin--4-5 { top: 31vmin; left: 84vmin; }
+.pin--4-6 { top: 21vmin; left: 80vmin; }
+.pin--4-7 { top: 31vmin; left: 76vmin; }
+.pin--4-8 { top: 21vmin; left: 72vmin; }
+.pin--4-9 { top: 31vmin; left: 68vmin; }
+.pin--4-10 { top: 21vmin; left: 64vmin; }
+.pin--4-11 { top: 31vmin; left: 60vmin; }
+.pin--4-12 { top: 21vmin; left: 56vmin; }
+.pin--4-13 { top: 31vmin; left: 52vmin; }
+.pin--4-14 { top: 21vmin; left: 48vmin; }
+.pin--4-15 { top: 31vmin; left: 44vmin; }
+.pin--4-16 { top: 21vmin; left: 40vmin; }
+.pin--4-17 { top: 31vmin; left: 36vmin; }
+
+/* SECONDA FILA */
+.pin--4-18 { top: 12vmin; left: 108vmin; }
+.pin--4-19 { top: 2vmin; left: 104vmin; }
+.pin--4-20 { top: 12vmin; left: 100vmin; }
+.pin--4-21 { top: 2vmin; left: 96vmin; }
+.pin--4-22 { top: 12vmin; left: 92vmin; }
+.pin--4-23 { top: 2vmin; left: 88vmin; }
+.pin--4-24 { top: 12vmin; left: 84vmin; }
+.pin--4-25 { top: 2vmin; left: 80vmin; }
+.pin--4-26 { top: 12vmin; left: 76vmin; }
+.pin--4-27 { top: 2vmin; left: 72vmin; }
+.pin--4-28 { top: 12vmin; left: 68vmin; }
+.pin--4-29 { top: 2vmin; left: 64vmin; }
+.pin--4-30 { top: 12vmin; left: 60vmin; }
+.pin--4-31 { top: 2vmin; left: 56vmin; }
+.pin--4-32 { top: 12vmin; left: 52vmin; }
+.pin--4-33 { top: 2vmin; left: 48vmin; }
+.pin--4-34 { top: 12vmin; left: 44vmin; }
+.pin--4-35 { top: 2vmin; left: 40vmin; }
+.pin--4-36 { top: 12vmin; left: 36vmin; }
+
+/* LATERALE */
+.pin--4-37 { top: 58vmin; left: 10vmin; }
+.pin--4-38 { top: 58vmin; left: 10vmin; }
+.pin--4-39 { top: 58vmin; left: 10vmin; }
+.pin--4-40 { top: 58vmin; left: 10vmin; }
+.pin--4-41 { top: 58vmin; left: 10vmin; }
+.pin--4-42 { top: 58vmin; left: 10vmin; }
+.pin--4-43 { top: 58vmin; left: 10vmin; }
+.pin--4-44 { top: 58vmin; left: 10vmin; }
+.pin--4-45 { top: 58vmin; left: 10vmin; }
+.pin--4-46 { top: 58vmin; left: 10vmin; }
+.pin--4-47 { top: 58vmin; left: 10vmin; }
+.pin--4-48 { top: 58vmin; left: 10vmin; }
+.pin--4-49 { top: 58vmin; left: 10vmin; }
+.pin--4-50 { top: 58vmin; left: 10vmin; }
+
+/* TERZA FILA */
+.pin--4-51 { top: 52vmin; left: 34.5vmin; }
+.pin--4-52 { top: 52vmin; left: 43vmin; }
+.pin--4-53 { top: 52vmin; left: 51.5vmin; }
+.pin--4-54 { top: 52vmin; left: 60vmin; }
+.pin--4-55 { top: 52vmin; left: 68.5vmin; }
+.pin--4-56 { top: 52vmin; left: 77vmin; }
+.pin--4-57 { top: 52vmin; left: 85.5vmin; }
+.pin--4-58 { top: 52vmin; left: 94vmin; }
+.pin--4-59 { top: 52vmin; left: 102.5vmin; }
+.pin--4-60 { top: 52vmin; left: 111vmin; }
+
+/* QUARTA FILA */
+.pin--4-61 { top: 67vmin; left: 111vmin; }
+.pin--4-62 { top: 67vmin; left: 102.5vmin; }
+.pin--4-63 { top: 71vmin; left: 96vmin; }
+.pin--4-64 { top: 64vmin; left: 91.75vmin; }
+.pin--4-65 { top: 71vmin; left: 87.5vmin; }
+.pin--4-66 { top: 64vmin; left: 83.25vmin; }
+.pin--4-67 { top: 71vmin; left: 79vmin; }
+.pin--4-68 { top: 64vmin; left: 74.75vmin; }
+.pin--4-69 { top: 71vmin; left: 70.5vmin; }
+.pin--4-70 { top: 64vmin; left: 66.25vmin; }
+.pin--4-71 { top: 71vmin; left: 62vmin; }
+.pin--4-72 { top: 64vmin; left: 57.75vmin; }
+.pin--4-73 { top: 71vmin; left: 53.5vmin; }
+.pin--4-74 { top: 64vmin; left: 49.25vmin; }
+.pin--4-75 { top: 67vmin; left: 43vmin; }
+.pin--4-76 { top: 67vmin; left: 34.5vmin; }
 
 /* Inserito da me */
 .icon--text {
@@ -1414,6 +1782,12 @@ button:focus {
 	display: none;
 }
 
+
+
+
+
+/* -----------------*/
+
 @media screen and (max-width: 65.625em), screen and (max-height: 40.625em) {
 	.main {
 		width: 100vw;
@@ -1503,17 +1877,9 @@ button:focus {
         font-size: 3.5vmin;
     }
     
-    .boxbutton2 {
-        height: 30%;
-    }
-    
-    .boxbutton3 {
-        height: 30%;
-    }
-    
-    .boxora {
-        height: 30%;
-    }
 
+	
+	/* ----------------- */
+	
 /* -------------- */
 }
