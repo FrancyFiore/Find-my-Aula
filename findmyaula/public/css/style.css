@@ -1576,9 +1576,10 @@ button:focus {
 .pin--2-25 { top: 16vmin; left: 85vmin; }
 
 /* Pins for floor 3 */
-.pin--3-1 { top: 17vmin; left: 15vmin; }
-.pin--3-2 { top: 42vmin; left: 5vmin; }
-.pin--3-3 { top: 19vmin; left: 85vmin; }
+.pin--3-1 { top: 40vmin; left: 5vmin; }
+.pin--3-2 { top: 65vmin; left: 112vmin; } /* 75 - 125 */
+.pin--3-3 { top: 50vmin; left: 75vmin; }
+/* Non utilizzati */
 .pin--3-4 { top: 61vmin; left: 57vmin; }
 .pin--3-5 { top: 58vmin; left: 25vmin; }
 .pin--3-6 { top: 30vmin; left: 57vmin; }
@@ -1587,45 +1588,45 @@ button:focus {
 .pin--3-10 { top: 32vmin; left: 37vmin; }
 
 /* Pins for floor 4 */
-/* PRIMA FILA */
-.pin--4-1 { top: 31vmin; left: 100vmin; }
-.pin--4-2 { top: 21vmin; left: 96vmin; }
-.pin--4-3 { top: 31vmin; left: 92vmin; }
-.pin--4-4 { top: 21vmin; left: 88vmin; }
-.pin--4-5 { top: 31vmin; left: 84vmin; }
-.pin--4-6 { top: 21vmin; left: 80vmin; }
-.pin--4-7 { top: 31vmin; left: 76vmin; }
-.pin--4-8 { top: 21vmin; left: 72vmin; }
-.pin--4-9 { top: 31vmin; left: 68vmin; }
-.pin--4-10 { top: 21vmin; left: 64vmin; }
-.pin--4-11 { top: 31vmin; left: 60vmin; }
-.pin--4-12 { top: 21vmin; left: 56vmin; }
-.pin--4-13 { top: 31vmin; left: 52vmin; }
-.pin--4-14 { top: 21vmin; left: 48vmin; }
-.pin--4-15 { top: 31vmin; left: 44vmin; }
-.pin--4-16 { top: 21vmin; left: 40vmin; }
-.pin--4-17 { top: 31vmin; left: 36vmin; }
-
 /* SECONDA FILA */
-.pin--4-18 { top: 12vmin; left: 108vmin; }
-.pin--4-19 { top: 2vmin; left: 104vmin; }
-.pin--4-20 { top: 12vmin; left: 100vmin; }
-.pin--4-21 { top: 2vmin; left: 96vmin; }
+.pin--4-1 { top: 31vmin; left: 100vmin; }
+.pin--4-2 { top: 21vmin; left: 95.75vmin; }
+.pin--4-3 { top: 31vmin; left: 91.5vmin; }
+.pin--4-4 { top: 21vmin; left: 87.25vmin; }
+.pin--4-5 { top: 31vmin; left: 83vmin; }
+.pin--4-6 { top: 21vmin; left: 78.75vmin; }
+.pin--4-7 { top: 31vmin; left: 74.5vmin; }
+.pin--4-8 { top: 21vmin; left: 70.25vmin; }
+.pin--4-9 { top: 31vmin; left: 66vmin; }
+.pin--4-10 { top: 21vmin; left: 61.75vmin; }
+.pin--4-11 { top: 31vmin; left: 57.5vmin; }
+.pin--4-12 { top: 21vmin; left: 53.25vmin; }
+.pin--4-13 { top: 31vmin; left: 49vmin; }
+.pin--4-14 { top: 21vmin; left: 44.75vmin; }
+.pin--4-15 { top: 31vmin; left: 40.5vmin; }
+.pin--4-16 { top: 21vmin; left: 36.25vmin; }
+.pin--4-17 { top: 31vmin; left: 32vmin; }
+
+/* PRIMA FILA */
+.pin--4-18 { top: 12vmin; left: 109vmin; }
+.pin--4-19 { top: 2vmin; left: 101.75vmin; }
+.pin--4-20 { top: 12vmin; left: 100.5vmin; }
+.pin--4-21 { top: 2vmin; left: 96.25vmin; }
 .pin--4-22 { top: 12vmin; left: 92vmin; }
-.pin--4-23 { top: 2vmin; left: 88vmin; }
-.pin--4-24 { top: 12vmin; left: 84vmin; }
-.pin--4-25 { top: 2vmin; left: 80vmin; }
-.pin--4-26 { top: 12vmin; left: 76vmin; }
-.pin--4-27 { top: 2vmin; left: 72vmin; }
-.pin--4-28 { top: 12vmin; left: 68vmin; }
-.pin--4-29 { top: 2vmin; left: 64vmin; }
-.pin--4-30 { top: 12vmin; left: 60vmin; }
-.pin--4-31 { top: 2vmin; left: 56vmin; }
-.pin--4-32 { top: 12vmin; left: 52vmin; }
-.pin--4-33 { top: 2vmin; left: 48vmin; }
-.pin--4-34 { top: 12vmin; left: 44vmin; }
-.pin--4-35 { top: 2vmin; left: 40vmin; }
-.pin--4-36 { top: 12vmin; left: 36vmin; }
+.pin--4-23 { top: 2vmin; left: 87.75vmin; }
+.pin--4-24 { top: 12vmin; left: 83.5vmin; }
+.pin--4-25 { top: 2vmin; left: 79.25vmin; }
+.pin--4-26 { top: 12vmin; left: 75vmin; }
+.pin--4-27 { top: 2vmin; left: 70.75vmin; }
+.pin--4-28 { top: 12vmin; left: 66.5vmin; }
+.pin--4-29 { top: 2vmin; left: 62.25vmin; }
+.pin--4-30 { top: 12vmin; left: 58vmin; }
+.pin--4-31 { top: 2vmin; left: 53.75vmin; }
+.pin--4-32 { top: 12vmin; left: 49.5vmin; }
+.pin--4-33 { top: 2vmin; left: 45.25vmin; }
+.pin--4-34 { top: 12vmin; left: 41vmin; }
+.pin--4-35 { top: 2vmin; left: 36.75vmin; }
+.pin--4-36 { top: 12vmin; left: 32.5vmin; }
 
 /* LATERALE */
 .pin--4-37 { top: 58vmin; left: 10vmin; }
@@ -1783,10 +1784,63 @@ button:focus {
 }
 
 
+/* PER IL WAYFINDING */
 
+#myMaps {
+	text-align: center;
+	display: inline-block;
+    cursor: default;
+    height: 72vmin;
+    width: 108vmin;
+	padding-bottom: 10vmin;
+}
+
+#controls {
+	/*background-color: lightGrey;*/
+	color: white;
+	display: block;
+	height: 100%;
+	z-index:-1;
+}
+
+div#mapLoading {
+	font-size: 10em;
+	left: 50px;
+	position: absolute;
+	top: 60px;
+	z-index: -1;
+}
+
+.debugPath {
+	stroke: orange;
+	stroke-width: 5;
+}
+
+.debugRoom {
+	fill: red;
+	stroke: red;
+	stroke-width: 4;
+}
+
+.wayfindingRoom {
+	fill: #ffc;
+	stroke: blue;
+	stroke-width: 2;
+	stroke-dasharray: 5 3;
+}
 
 
 /* -----------------*/
+
+/* METEO */
+
+.meteo {
+	padding-left: 3vmin;
+	color: white;
+	font-size: 4vmin;
+}
+
+/* ----- */
 
 @media screen and (max-width: 65.625em), screen and (max-height: 40.625em) {
 	.main {
@@ -1877,9 +1931,105 @@ button:focus {
         font-size: 3.5vmin;
     }
     
+    .boxbutton2 {
+        height: 30%;
+    }
+    
+    .boxbutton3 {
+        height: 30%;
+    }
+    
+    .boxora {
+        height: 30%;
+    }
+	
+	.levels2 {
+		margin: -32vmin 0 0 -65vmin;
+	}
+	
+	
+	/* PER IL WAYFINDING */
+	
+	#myMaps {
+		text-align: center;
+		display: inline-block;
+		cursor: default;
+		height: 66vmin;
+		width: 99vmin;
+	}	
 
+	#controls {
+		/*background-color: lightGrey;*/
+		color: white;
+		display: block;
+		height: 100%;
+		z-index:-1;
+	}
 	
 	/* ----------------- */
 	
-/* -------------- */
+	/* -------------- */
+	
+	@media screen and (orientation:landscape) /*and (max-width: 65.625em), screen and (max-height: 40.625em)*/ {
+		
+	.levels {
+		margin: -32vmin 0 0 -80vmin;
+	}
+
+	.PoloA{
+		width: 150%;
+		height: 150%
+	}
+
+	/* Pins for floor 1 */
+	.pin--1-1 { top: 27vmin; left: 127.5vmin; }
+	.pin--1-2 { top: 52.5vmin; left: 127.5vmin; }
+	.pin--1-3 { top: 84vmin; left: 12vmin; }
+	.pin--1-4 { top: 60vmin; left: 12vmin; }
+	.pin--1-5 { top: 37.5vmin; left: 12vmin; }
+	.pin--1-6 { top: 15vmin; left: 12vmin; }
+	.pin--1-7 { top: 46.5vmin; left: 34.5vmin; }
+	.pin--1-8 { top: 46.5vmin; left: 105vmin; }
+	.pin--1-9 { top: 30vmin; left: 70.5vmin; }
+	.pin--1-10 { top: 30vmin; left: 48vmin; }
+
+	/* Pins for floor 2 */
+	.pin--2-1 { top: 48vmin; left: 127.5vmin; }
+	.pin--2-2 { top: 67.5vmin; left: 127.5vmin; }
+	.pin--2-3 { top: 87vmin; left: 127.5vmin; }
+	.pin--2-4 { top: 87vmin; left: 10.5vmin; }
+	.pin--2-5 { top: 69vmin; left: 10.5vmin; }
+	.pin--2-6 { top: 48vmin; left: 10.5vmin; }
+	.pin--2-7 { top: 30vmin; left: 10.5vmin; }
+	.pin--2-8 { top: 12vmin; left: 10.5vmin; }
+	.pin--2-9 { top: 88.5vmin; left: 88.5vmin; }
+	.pin--2-10 { top: 88.5vmin; left: 75vmin; }
+	.pin--2-11 { top: 88.5vmin; left: 61.5vmin; }
+	.pin--2-12 { top: 88.5vmin; left: 48vmin; }
+	.pin--2-13 { top: 70.5vmin; left: 48vmin; }
+	.pin--2-14 { top: 70.5vmin; left: 61.5vmin; }
+	.pin--2-15 { top: 70.5vmin; left: 75vmin; }
+	.pin--2-16 { top: 70.5vmin; left: 88.5vmin; }
+	.pin--2-17 { top: 30vmin; left: 88.5vmin; }
+	.pin--2-18 { top: 30vmin; left: 75vmin; }
+	.pin--2-19 { top: 30vmin; left: 61.5vmin; }
+	.pin--2-20 { top: 30vmin; left: 48vmin; }
+	.pin--2-21 { top: 12vmin; left: 48vmin; }
+	.pin--2-22 { top: 12vmin; left: 61.5vmin; }
+	.pin--2-23 { top: 12vmin; left: 75vmin; }
+	.pin--2-24 { top: 12vmin; left: 88.5vmin; }
+	.pin--2-25 { top: 24vmin; left: 127.5vmin; }
+
+	
+	.PoloB{
+		width: 190%;
+		height: 190%
+	}
+
+	.levels2 {
+		margin: -32vmin 0 0 -85vmin;
+	}
+	
+}
+	
 }
