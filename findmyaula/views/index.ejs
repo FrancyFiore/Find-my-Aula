@@ -10,6 +10,7 @@
 		<meta name="Francesco Fiorelli" content="Codrops" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/weather-icons.css" />
 		<script src="js/modernizr-custom.js"></script>
 	</head>
 	<body>
@@ -17,17 +18,20 @@
 			<div>
 				<header class="codrops-header">
 					<h1>Interactive University Map</h1>
+					<h1 id="Meteo"></h1>
+					<i class="wi wi-night-sleet meteo" id="simbolo"></i>
 				</header>
                 <div class="ph-container">
                     <div class="ph-container2">
                         <div class="ph-float">
                             <div style="padding-top: 30px"><a href='/Povo1' class='ph-button ph-btn-green'>Povo 1 - Polo A</a></div>
-                            <div style="padding-top: 30px"><a href='#' class='ph-button ph-btn-blue'>Povo 2 - Polo B</a></div>
+                            <div style="padding-top: 30px"><a href='/Povo2' class='ph-button ph-btn-blue'>Povo 2 - Polo B</a></div>
                             <div style="padding-top: 30px"><a href='/Wayfinding' class='ph-button ph-btn-red'>Trova Percorso</a></div>
                         </div> 
                     </div>  
                 </div>
             </div>
         </div>
+		<script src="js/meteo.js"></script>
 	</body>
 </html>
