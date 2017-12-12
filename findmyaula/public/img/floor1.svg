@@ -6,67 +6,182 @@
 	.st0{fill:#D7D7DC;}
 	.st1{fill:#A4A4A4;}
 	.st2{fill:#BBBBBB;}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#0055AA;}
+	.st5{font-family:'Futura-Medium';}
+	.st6{font-size:36px;}
 </style>
-<g id="Vuoto">
-	<polyline id="Pavimento" class="st0" points="12.7,365.7 12.7,787.4 356.2,787.4 437.4,786.1 542.3,786.1 627.8,787.4 
-		1187.5,786.3 1187.5,532.7 1187.5,430.6 1187.5,405.6 1187.3,349.7 1187.3,11.2 548.1,11.2 511.5,11.2 464.4,11.2 437.4,11.2 
-		13.9,9.7 	"/>
-	<rect x="249.7" y="192.9" class="st1" width="123.2" height="83.4"/>
-	<rect x="249.7" y="450.9" class="st1" width="123.1" height="149.7"/>
-	<rect x="538.2" y="509.9" class="st1" width="94.6" height="90.7"/>
-	<rect x="633.9" y="509.9" class="st1" width="190.8" height="90.7"/>
-	<rect x="825.9" y="451.5" class="st1" width="128.5" height="149"/>
-	<rect x="825.9" y="193.1" class="st1" width="128.5" height="83.2"/>
-	<rect x="768.3" y="193.1" class="st1" width="56.7" height="83"/>
-	<rect x="373.8" y="192.9" class="st1" width="69.7" height="83.4"/>
-</g>
-<g id="Base">
-	<path class="st2" d="M1188,11.5v337.9l-0.5,12v50.8v35.4v338.7H628.6l-78.9-0.2H429.6l-72.6,0.2H13.4V365.4l0.5-354.3 M0,0v353.9
-		V800h365.8H389h35.2h122.3h58.3h14H1200V555.1v-79.7v-66.7v-45.6V0l0,0H535.5H0z"/>
-	<path class="st2" d="M1188,11.5v337.9l-0.5,12v50.8v35.4v338.7H628.6l-78.9-0.2H429.6l-72.6,0.2H13.4V365.4l0.5-354.3 M0,0v353.9
-		V800h365.8H389h35.2h122.3h58.3h14H1200V555.1v-79.7v-66.7v-45.6V0l0,0H535.5H0z"/>
-	<path class="st2" d="M377.6,11.8v61.4l-0.1,2.2v9.2V91v61.5h-60.4h-8.5h-13h-7.9h-37.2V76l0.1-64.3 M249.1,9.7V74v81h39.6h2.5h3.8
-		h13.2h6.3h1.5h62.8v-44.5V96V83.9v-8.3V9.7l0,0H307H249.1z"/>
-	<path class="st2" d="M953.8,11.8v61.4l-0.1,2.2v9.2V91v61.5h-60.4h-8.5h-13h-7.9h-37.2V76l0.1-64.3 M825.3,9.7V74v81h39.6h2.5h3.8
-		h13.2h6.3h1.5H955v-44.5V96V83.9v-8.3V9.7l0,0h-71.9H825.3z"/>
-	<path class="st2" d="M377.8,643.6V705l-0.1,2.2v9.2v6.4v61.5h-60.4h-8.5h-13h-7.9h-37.2v-76.4l0.1-64.3 M249.3,641.5v64.3v81h39.6
-		h2.5h3.8h13.2h6.3h1.5H379v-44.5v-14.5v-12.1v-8.3v-65.9l0,0h-71.9H249.3z"/>
-	<path class="st2" d="M953.7,643.6V705l-0.1,2.2v9.2v6.4v61.5h-60.4h-8.5h-13h-7.9h-37.2v-76.4l0.1-64.3 M825.3,641.5v64.3v81h39.6
-		h2.5h3.8h13.2h6.3h1.5H955v-44.5v-14.5v-12.1v-8.3v-65.9l0,0h-71.9H825.3z"/>
-</g>
-<g id="Rooms">
-	<g id="_x31_">
-		<rect x="989.4" y="528.1" class="st1" width="198.3" height="77.4"/>
+<g>
+	<g id="Vuoto">
+		<polyline id="Pavimento" class="st0" points="12.7,365.7 12.7,787.4 356.2,787.4 437.4,786.1 542.3,786.1 627.8,787.4 
+			1187.5,786.3 1187.5,532.7 1187.5,430.6 1187.5,405.6 1187.3,349.7 1187.3,11.2 548.1,11.2 511.5,11.2 464.4,11.2 437.4,11.2 
+			13.9,9.7 		"/>
+		<rect x="249.7" y="192.9" class="st1" width="123.2" height="83.4"/>
+		<rect x="249.7" y="450.9" class="st1" width="123.1" height="149.7"/>
+		<rect x="538.2" y="509.9" class="st1" width="94.6" height="90.7"/>
+		<rect x="633.9" y="509.9" class="st1" width="190.8" height="90.7"/>
+		<rect x="825.9" y="451.5" class="st1" width="128.5" height="149"/>
+		<rect x="825.9" y="193.1" class="st1" width="128.5" height="83.2"/>
+		<rect x="768.3" y="193.1" class="st1" width="56.7" height="83"/>
+		<rect x="373.8" y="192.9" class="st1" width="69.7" height="83.4"/>
 	</g>
-	<g id="_x32_">
-		<rect x="373.8" y="509.9" class="st1" width="163.4" height="90.7"/>
+	<g id="Base">
+		<path class="st2" d="M1188,11.5v337.9l-0.5,12v50.8v35.4v338.7H628.6l-78.9-0.2H429.6l-72.6,0.2H13.4V365.4l0.5-354.3 M0,0v353.9
+			V800h365.8H389h35.2h122.3h58.3h14H1200V555.1v-79.7v-66.7v-45.6V0l0,0H535.5H0z"/>
+		<path class="st2" d="M1188,11.5v337.9l-0.5,12v50.8v35.4v338.7H628.6l-78.9-0.2H429.6l-72.6,0.2H13.4V365.4l0.5-354.3 M0,0v353.9
+			V800h365.8H389h35.2h122.3h58.3h14H1200V555.1v-79.7v-66.7v-45.6V0l0,0H535.5H0z"/>
+		<path class="st2" d="M377.6,11.8v61.4l-0.1,2.2v9.2V91v61.5h-60.4h-8.5h-13h-7.9h-37.2V76l0.1-64.3 M249.1,9.7V74v81h39.6h2.5h3.8
+			h13.2h6.3h1.5h62.8v-44.5V96V83.9v-8.3V9.7l0,0H307H249.1z"/>
+		<path class="st2" d="M953.8,11.8v61.4l-0.1,2.2v9.2V91v61.5h-60.4h-8.5h-13h-7.9h-37.2V76l0.1-64.3 M825.3,9.7V74v81h39.6h2.5h3.8
+			h13.2h6.3h1.5H955v-44.5V96V83.9v-8.3V9.7l0,0h-71.9H825.3z"/>
+		<path class="st2" d="M377.8,643.6V705l-0.1,2.2v9.2v6.4v61.5h-60.4h-8.5h-13h-7.9h-37.2v-76.4l0.1-64.3 M249.3,641.5v64.3v81h39.6
+			h2.5h3.8h13.2h6.3h1.5H379v-44.5v-14.5v-12.1v-8.3v-65.9l0,0h-71.9H249.3z"/>
+		<path class="st2" d="M953.7,643.6V705l-0.1,2.2v9.2v6.4v61.5h-60.4h-8.5h-13h-7.9h-37.2v-76.4l0.1-64.3 M825.3,641.5v64.3v81h39.6
+			h2.5h3.8h13.2h6.3h1.5H955v-44.5v-14.5v-12.1v-8.3v-65.9l0,0h-71.9H825.3z"/>
 	</g>
-	<g id="AulaStudio">
-		<rect x="444.3" y="192.9" class="st1" width="322.8" height="83.4"/>
+	<g id="Rooms">
+		<g id="_x31_">
+			<rect x="989.4" y="528.1" class="st1" width="198.3" height="77.4"/>
+		</g>
+		<g id="_x32_">
+			<rect x="373.8" y="509.9" class="st1" width="163.4" height="90.7"/>
+		</g>
+		<g id="AulaStudio">
+			<rect x="444.3" y="192.9" class="st1" width="322.8" height="83.4"/>
+		</g>
+		<g id="A108">
+			<rect x="825.9" y="277.4" class="st1" width="128.5" height="173"/>
+		</g>
+		<g id="A107">
+			<rect x="249.7" y="277.4" class="st1" width="123.2" height="172.5"/>
+		</g>
+		<g id="A106">
+			<rect x="12.8" y="9.6" class="st1" width="206.6" height="194.6"/>
+		</g>
+		<g id="A105">
+			<rect x="12.8" y="205.9" class="st1" width="206.6" height="192.9"/>
+		</g>
+		<g id="A104">
+			<rect x="12.7" y="400.2" class="st1" width="206.6" height="190.6"/>
+		</g>
+		<g id="A103">
+			<rect x="12.8" y="592.4" class="st1" width="206.6" height="194.6"/>
+		</g>
+		<g id="A102">
+			<rect x="989.4" y="334.5" class="st1" width="198.2" height="192.2"/>
+		</g>
+		<g id="A101">
+			<rect x="989.4" y="74.1" class="st1" width="198.2" height="259.4"/>
+		</g>
+		<g id="Entrata_1_">
+			<rect x="498" y="701.3" class="st1" width="163.4" height="41.4"/>
+		</g>
 	</g>
-	<g id="A108">
-		<rect x="825.9" y="277.4" class="st1" width="128.5" height="173"/>
+	<g id="Paths">
+		<line class="st3" x1="972" y1="173.7" x2="972" y2="108.7"/>
+		<line class="st3" x1="989.4" y1="108.7" x2="972" y2="108.7"/>
+		<line class="st3" x1="972" y1="108.7" x2="972" y2="32.1"/>
+		<line class="st3" x1="479.1" y1="173.7" x2="479.1" y2="192.9"/>
+		<line class="st3" x1="739.9" y1="173.7" x2="739.9" y2="192.9"/>
+		<line class="st3" x1="219.4" y1="223" x2="234" y2="223"/>
+		<line class="st3" x1="219.4" y1="379.6" x2="234.3" y2="379.6"/>
+		<line class="st3" x1="234" y1="183.3" x2="234" y2="223"/>
+		<line class="st3" x1="219.3" y1="418.6" x2="234" y2="418.6"/>
+		<line class="st3" x1="249.7" y1="295.2" x2="234.1" y2="295.2"/>
+		<line class="st3" x1="249.7" y1="430" x2="234" y2="430"/>
+		<line class="st3" x1="219.4" y1="567.7" x2="234" y2="567.7"/>
+		<line class="st3" x1="219.4" y1="616.9" x2="234" y2="616.9"/>
+		<line class="st3" x1="219.4" y1="758" x2="234" y2="758"/>
+		<line class="st3" x1="396.3" y1="665.3" x2="396.3" y2="622.7"/>
+		<line class="st3" x1="808.3" y1="622.7" x2="808.3" y2="665.3"/>
+		<line class="st3" x1="971.8" y1="622.7" x2="971.8" y2="756.4"/>
+		<line class="st3" x1="989.4" y1="503.4" x2="971.8" y2="503.4"/>
+		<line class="st3" x1="989.4" y1="353.6" x2="971.8" y2="353.6"/>
+		<line class="st3" x1="954.4" y1="426.5" x2="971.8" y2="426.5"/>
+		<line class="st3" x1="954.4" y1="295.8" x2="971.8" y2="295.8"/>
+		<line class="st3" x1="989.4" y1="300.7" x2="971.8" y2="300.7"/>
+		<line class="st3" x1="234" y1="758" x2="234" y2="767.5"/>
+		<line class="st3" x1="234" y1="767.5" x2="357.1" y2="767.5"/>
+		<line class="st3" x1="396.3" y1="665.3" x2="270.8" y2="665.3"/>
+		<line class="st3" x1="808.3" y1="665.3" x2="927.1" y2="665.3"/>
+		<line class="st3" x1="971.8" y1="756.4" x2="850.7" y2="756.4"/>
+		<line class="st3" x1="972" y1="32.1" x2="852" y2="32.1"/>
+		<line class="st3" x1="852" y1="173.7" x2="852" y2="49.6"/>
+		<line class="st3" x1="234" y1="28.4" x2="347.9" y2="28.4"/>
+		<line class="st3" x1="347.9" y1="173.6" x2="347.9" y2="48.3"/>
+		<line class="st3" x1="585.5" y1="622.7" x2="585.5" y2="701.3"/>
+		<line class="st3" x1="234" y1="183.3" x2="219.4" y2="183.3"/>
+		<line class="st3" x1="234" y1="173.6" x2="234" y2="183.3"/>
+		<line class="st3" x1="234" y1="31.9" x2="219.4" y2="31.9"/>
+		<line class="st3" x1="234" y1="28.4" x2="234" y2="31.9"/>
+		<line class="st3" x1="234" y1="173.6" x2="234" y2="31.9"/>
+		<line class="st3" x1="234" y1="173.6" x2="347.9" y2="173.6"/>
+		<line class="st3" x1="479.1" y1="173.7" x2="347.9" y2="173.6"/>
+		<line class="st3" x1="739.9" y1="173.7" x2="479.1" y2="173.7"/>
+		<line class="st3" x1="234" y1="223" x2="234.1" y2="295.2"/>
+		<line class="st3" x1="234.3" y1="379.6" x2="234.1" y2="295.2"/>
+		<line class="st3" x1="234" y1="418.6" x2="234.3" y2="379.6"/>
+		<line class="st3" x1="234" y1="430" x2="234" y2="418.6"/>
+		<line class="st3" x1="234" y1="567.7" x2="234" y2="430"/>
+		<line class="st3" x1="396.3" y1="622.7" x2="234" y2="622.7"/>
+		<line class="st3" x1="234" y1="622.7" x2="234" y2="616.9"/>
+		<line class="st3" x1="234" y1="567.7" x2="234" y2="616.9"/>
+		<line class="st3" x1="234" y1="758" x2="234" y2="622.7"/>
+		<line class="st3" x1="396.3" y1="622.7" x2="585.5" y2="622.7"/>
+		<line class="st3" x1="808.3" y1="622.7" x2="585.5" y2="622.7"/>
+		<line class="st3" x1="971.8" y1="622.7" x2="808.3" y2="622.7"/>
+		<line class="st3" x1="971.8" y1="503.4" x2="971.8" y2="622.7"/>
+		<line class="st3" x1="971.8" y1="426.5" x2="971.8" y2="503.4"/>
+		<line class="st3" x1="971.8" y1="353.6" x2="971.8" y2="426.5"/>
+		<line class="st3" x1="971.8" y1="300.7" x2="971.8" y2="353.6"/>
+		<line class="st3" x1="972" y1="173.7" x2="971.8" y2="295.8"/>
+		<line class="st3" x1="971.8" y1="300.7" x2="971.8" y2="295.8"/>
+		<line class="st3" x1="852" y1="173.7" x2="972" y2="173.7"/>
+		<line class="st3" x1="739.9" y1="173.7" x2="852" y2="173.7"/>
 	</g>
-	<g id="A107">
-		<rect x="249.7" y="277.4" class="st1" width="123.2" height="172.5"/>
+	<g id="Doors">
+		<line id="A108_1_" class="st3" x1="954.4" y1="295.8" x2="942.8" y2="284.2"/>
+		<line id="A108_2_" class="st3" x1="954.4" y1="426.5" x2="942.8" y2="414.9"/>
+		<line id="A107_1_" class="st3" x1="249.7" y1="430" x2="261.3" y2="418.4"/>
+		<line id="A107_2_" class="st3" x1="249.7" y1="295.2" x2="261.3" y2="283.6"/>
+		<line id="A105_1_" class="st3" x1="219.4" y1="223" x2="207.8" y2="234.6"/>
+		<line id="A105_2_" class="st3" x1="219.4" y1="379.6" x2="207.8" y2="391.3"/>
+		<line id="A104_1_" class="st3" x1="219.3" y1="418.6" x2="207.7" y2="430.3"/>
+		<line id="A104_2_" class="st3" x1="219.4" y1="567.7" x2="207.8" y2="579.3"/>
+		<line id="A103_1_" class="st3" x1="219.4" y1="616.9" x2="207.8" y2="628.6"/>
+		<line id="A103_2_" class="st3" x1="219.4" y1="758" x2="207.8" y2="769.6"/>
+		<line id="AulaStudio_1_" class="st3" x1="479.1" y1="192.9" x2="467.4" y2="204.5"/>
+		<line id="AulaStudio_2_" class="st3" x1="739.9" y1="192.9" x2="728.2" y2="204.5"/>
+		<line id="A102_1_" class="st3" x1="989.4" y1="353.6" x2="1001" y2="365.2"/>
+		<line id="A102_2_" class="st3" x1="989.4" y1="503.4" x2="1001" y2="515"/>
+		<line id="A101_1_" class="st3" x1="989.4" y1="108.7" x2="1001" y2="120.3"/>
+		<line id="A101_2_" class="st3" x1="989.4" y1="300.7" x2="1001" y2="312.3"/>
+		<line id="Entrata" class="st3" x1="585.5" y1="701.3" x2="574.5" y2="712.3"/>
+		<line id="A106_1_" class="st3" x1="219.4" y1="183.3" x2="209.4" y2="193.3"/>
+		<line id="A106_2_" class="st3" x1="219.4" y1="31.9" x2="208.9" y2="42.3"/>
 	</g>
-	<g id="A106">
-		<rect x="12.8" y="9.6" class="st1" width="206.6" height="194.6"/>
+	<g id="Portals">
+		<line id="Stair.1.floor2" class="st3" x1="270.8" y1="665.3" x2="259.6" y2="654.1"/>
+		<line id="Stair.2.floor2" class="st3" x1="357.1" y1="767.5" x2="345.9" y2="756.3"/>
+		<line id="Stair.3.floor2" class="st3" x1="927.1" y1="666.3" x2="938.3" y2="677.5"/>
+		<line id="Stair.4.floor2" class="st3" x1="850.7" y1="756.4" x2="862" y2="745.2"/>
+		<line id="Stair.5.floor2" class="st3" x1="852" y1="32.1" x2="840.7" y2="43.3"/>
+		<line id="Stair.6.floor2" class="st3" x1="852" y1="49.6" x2="863.2" y2="38.4"/>
+		<line id="Stair.7.floor2" class="st3" x1="347.9" y1="48.3" x2="336.6" y2="37.1"/>
+		<line id="Stair.8.floor2" class="st3" x1="347.9" y1="28.4" x2="359.1" y2="39.6"/>
 	</g>
-	<g id="A105">
-		<rect x="12.8" y="205.9" class="st1" width="206.6" height="192.9"/>
-	</g>
-	<g id="A104">
-		<rect x="12.7" y="400.2" class="st1" width="206.6" height="190.6"/>
-	</g>
-	<g id="A103">
-		<rect x="12.8" y="592.4" class="st1" width="206.6" height="194.6"/>
-	</g>
-	<g id="A102">
-		<rect x="989.4" y="334.5" class="st1" width="198.2" height="192.2"/>
-	</g>
-	<g id="A101">
-		<rect x="989.4" y="74.1" class="st1" width="198.2" height="259.4"/>
+	<g id="RoomsName">
+		<text transform="matrix(1 0 0 1 64.6633 114.5184)" class="st4 st5 st6">A106</text>
+		<text transform="matrix(1 0 0 1 64.6635 306.494)" class="st4 st5 st6">A105</text>
+		<text transform="matrix(1 0 0 1 64.6636 509.9)" class="st4 st5 st6">A104</text>
+		<text transform="matrix(1 0 0 1 58.2021 710.9103)" class="st4 st5 st6">A103</text>
+		<text transform="matrix(1 0 0 1 264.1085 373.8416)" class="st4 st5 st6">A107</text>
+		<text transform="matrix(1 0 0 1 487.3002 247.858)" class="st4 st5 st6">AULA STUDIO</text>
+		<text transform="matrix(1 0 0 1 840.5471 373.8416)" class="st4 st5 st6">A108</text>
+		<text transform="matrix(1 0 0 1 1044.2192 443.9)" class="st4 st5 st6">A102</text>
+		<text transform="matrix(1 0 0 1 1044.2148 206.9112)" class="st4 st5 st6">A101-</text>
+		<text transform="matrix(1 0 0 1 1020.5149 250.1114)" class="st4 st5 st6">MAGNA</text>
+		<text transform="matrix(1 0 0 1 501.5654 737.0006)" class="st4 st5 st6">ENTRATA</text>
 	</g>
 </g>
 </svg>

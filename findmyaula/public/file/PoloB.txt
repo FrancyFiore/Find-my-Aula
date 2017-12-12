@@ -1,25 +1,23 @@
 8?1?9?11?Biologia molecolare - mod1?Lezione?Paolo Pasquale?Macchi?paolopasquale.macchi@unitn.it
-8?1?11?13?Biochimica - mod1?Lezione?Martin Michael?Hanczyc?martin.hanczyc@unitn.it
-8?1?13?16?Statistical methods for experimental sciences - n0?Lezione?Francesco?Tommasino?francesco.tommasino@unitn.it
-8?1?16?18?Molecular basis of disease - mod1?Lezione?Alessandro?Quattrone?alessandro.quattrone@unitn.it
-5?2?9?11?Biotecnologie cellulari e microbiche - mod2?Lezione
-8?2?11?12??Lezione?Giovanni?Piccoli?giovanni.piccoli@unitn.it
+8?1?11?13?Functional and smart materials - n0?Lezione?Luca?Lutterotti?luca.lutterotti@unitn.it
+8?1?16?18?Privacy and intellectual property rights - n0?Lezione?VINCENZO?D'ANDREA?vincenzo.dandrea@unitn.it
+8?2?9?10?Virologia molecolare - n0?Lezione?Anna?Cereseto?anna.cereseto@unitn.it
+8?2?10?12?Biologia dell'rna?Lezione?Michela?Denti?michela.denti@unitn.it
 8?2?12?14?Biotecnologie farmaceutiche?Lezione?Giovanni?Piccoli?giovanni.piccoli@unitn.it
-8?2?14?16?Teoria dei gruppi?Lezione?Andrea?Caranti?andrea.caranti@unitn.it
-8?3?9?11?Laboratorio di metallurgia?Lezione?Diego Giordano Bruno?Colombo?diego.colombo@unitn.it
-5?3?11?13? PAF per il III anno?Lezione
-5?3?14?15?Laurea DII - Prof. Molinari?Istituzionale
-5?3?16?17?PhD MARINA CARDANO  CIBIO?Corso di formazione interno
-8?4?9?11?Product design - n0?Lezione?Stefano?Rossi?stefano.rossi@unitn.it
-8?4?11?13?Scienza e tecnologia dei materiali - n0?Lezione?Gian Domenico?SORARÙ?giandomenico.soraru@unitn.it
-8?4?15?18?Strategia aziendale?Lezione?Silvio?Pugliese?silvio.pugliese@unitn.it
-8?5?9?12?Organizzazione d'impresa e produzione avanzata?Lezione?Silvio?Pugliese?silvio.pugliese@unitn.it
-8?5?12?14?Introduction to cell biology?Lezione?Emilio?Cusanelli?emilio.cusanelli@unitn.it
-8?5?14?18?Big data and social networks - Data mining?Lezione?Yannis?Velegrakis?velgias@unitn.it
-8?6?9?11?Ingegneria del software 2?Lezione?Fabio?Casati?fabio.casati@unitn.it
-8?6?11?13?Analisi numerica I?Lezione?Paola?Zanolli?paola.zanolli@unitn.it
+5?2?14?15?Test dottorato CIBIO - Rif. Balduin?Dottorati
+8?3?9?11?Wireless mesh and vehicular networks - n0?Lezione?Renato Antonio?Lo Cigno?renato.locigno@unitn.it
+8?3?11?13?Laboratory of wireless sensor networks - n0?Lezione?Gian Pietro?Picco?gianpietro.picco@unitn.it
+8?3?14?16?Design and control of product and process - n0?Lezione?Paolo?Bosetti?paolo.bosetti@unitn.it
+8?3?16?19?Robotic perception and action - n0?Lezione?Mariolino?De Cecco?mariolino.dececco@unitn.it
+8?4?9?12?Metallic materials engineering - mod1?Lezione?Giovanni?Straffelini?giovanni.straffelini@unitn.it
+8?4?12?14?Fisica generale I (primo modulo)?Lezione?Rita?Dolesi?rita.dolesi@unitn.it
+8?4?16?18?Trasmissione numerica - n0?Lezione?Farid?Melgani?farid.melgani@unitn.it
+8?5?9?11?Quantum mechanics, fields and symmetries - n0?Lezione?Giovanni?Garberoglio?giovanni.garberoglio@unitn.it
+8?5?11?13?Advanced computing architectures?Lezione?Roberto?Passerone?roberto.passerone@unitn.it
+8?5?17?19?Business in ict?Lezione?Vittorino?Filippas?vittorino.filippas@unitn.it
+8?6?9?11?Disegno industriale - AL?Lezione?Ilaria?Cristofolini?ilaria.cristofolini@unitn.it
+8?6?11?13?Disegno industriale - MZ?Lezione?Ilaria?Cristofolini?ilaria.cristofolini@unitn.it
 8?6?14?18?Programmazione 1 - dispari?Lezione?Giuseppe?Riccardi?giuseppe.riccardi@unitn.it
-8?7?9?11?Logica - n0?Lezione?Fausto?Giunchiglia?fausto.giunchiglia@unitn.it
-8?7?11?13?Algoritmi e strutture dati?Lezione?Alberto?Montresor?alberto.montresor@unitn.it
-8?7?14?16?Analisi matematica 1 - pari?Lezione?Anneliese?Defranceschi?anneliese.defranceschi@unitn.it
-8?7?17?18?Tecnica delle costruzioni meccaniche - mod1?Lezione?Vigilio?Fontanari?vigilio.fontanari@unitn.it
+8?7?9?11?Programmazione 1 - pari?Lezione?Roberto?Sebastiani?roberto.sebastiani@unitn.it
+5?7?11?13?Lezione di recupero di Analisi matematica III?Lezione
+8?7?16?18?Analisi matematica 2 - n0?Lezione?Andrea?Pinamonti?andrea.pinamonti@unitn.it

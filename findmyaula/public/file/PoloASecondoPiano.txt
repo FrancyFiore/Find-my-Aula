@@ -1,79 +1,70 @@
-8?1?11?13?Electronic materials and technologies - n0?Lezione?Lucio?Pancheri?lucio.pancheri@unitn.it
-8?1?15?17?Programmazione ad oggetti - n0?Lezione?Enrico?Blanzieri?enrico.blanzieri@unitn.it
-8?2?9?10?Mathematical aspects of bioelectromagnetism and imaging - n0?Lezione?Ana Maria?Alonso Rodriguez?ana.alonso@unitn.it
-8?2?14?16?Computational physics?Lezione?Francesco?Pederiva?francesco.pederiva@unitn.it
-5?2?16?18?Introduzione alla programmazione (David Leoni)?Lezione
-8?3?9?11?Wired communications systems and devices - n0?Lezione?Massimo?Donelli?massimo.donelli@unitn.it
-8?3?11?13?Wireless mesh and vehicular networks - n0?Lezione?Renato Antonio?Lo Cigno?renato.locigno@unitn.it
-8?3?15?18?Logistica e gestione impianti industriali - n0?Lezione?Marco?Minati?marco.minati-1@unitn.it
-8?4?9?11?Robotic perception and action - n0?Lezione?Mariolino?De Cecco?mariolino.dececco@unitn.it
-8?4?11?14?Embedded systems - n0?Lezione?Davide?Brunelli?davide.brunelli@unitn.it
-8?4?15?18?Corrosion and degradation control of materials - n0?Lezione?Flavio?Deflorian?flavio.deflorian@unitn.it
-8?5?9?11?Computability and computational complexity?Lezione?Gabriel Mark?Kuper?gabrielmark.kuper@unitn.it
-8?5?11?13?Data mining_mod1?Lezione?Andrea?Passerini?andrea.passerini@unitn.it
-8?5?14?16?Introduzione alla meccanica statistica?Lezione?Gianluca?Lattanzi?gianluca.lattanzi@unitn.it
-8?5?16?18?Complementi matematici della meccanica quantistica?Lezione?Sergio?Zerbini?sergio.zerbini@unitn.it
-8?6?9?11?Fisica generale I?Lezione?Franco?Dalfovo?franco.dalfovo@unitn.it
-8?6?11?13?Linguaggi formali e compilatori - n0?Lezione?Paola?Quaglia?paola.quaglia@unitn.it
-8?6?14?16?Interazione uomo - macchina?Lezione?ANTONELLA?DE ANGELI?antonella.deangeli@unitn.it
-8?7?9?11?Metallic materials engineering - mod1?Lezione?Giovanni?Straffelini?giovanni.straffelini@unitn.it
-8?7?11?14?Mechanical design and machine elements?Lezione?Matteo?Benedetti?matteo.benedetti@unitn.it
-8?7?14?16?Teoria dei segnali?Lezione?Claudio?Sacchi?claudio.sacchi@unitn.it
-8?7?16?18?Elettrotecnica?Lezione?Renzo?Azaro?renzo.azaro@unitn.it
-8?8?9?11?Chimica generale ed inorganica?Lezione?Daniela?Ascenzi?daniela.ascenzi@unitn.it
-8?8?11?13?Chimica generale ed inorganica?Lezione?Daniela?Ascenzi?daniela.ascenzi@unitn.it
-8?9?9?11?Statistical mechanics - n0?Lezione?Stefano?Giorgini?stefano.giorgini@unitn.it
-8?9?11?13?Advanced metals - n0?Lezione?Massimo?Pellizzari?massimo.pellizzari@unitn.it
-8?10?9?11?Tecniche di programmazione avanzata?Lezione?Alessandro?Zorat?alessandro.zorat@unitn.it
-8?10?11?13?Imaging and diagnostic techniques?Lezione?Paolo?Rocca?paolo.rocca@unitn.it
-8?10?14?16?Geometria I?Lezione?ROBERTO?PIGNATELLI?roberto.pignatelli@unitn.it
-8?11?9?11?Computational biophysics - mod1?Lezione?Gianluca?Lattanzi?gianluca.lattanzi@unitn.it
-8?11?11?13?Biomechanics - n0?Lezione?Vigilio?Fontanari?vigilio.fontanari@unitn.it
-5?11?14?16?General english (livello b2)?Lezione
-8?12?9?10?Mathematical aspects of bioelectromagnetism and imaging - n0?Lezione?Ana Maria?Alonso Rodriguez?ana.alonso@unitn.it
-8?12?11?13?Systems and techniques for digital signal processing - n0?Lezione?David?Macii?david.macii@unitn.it
-8?12?14?16?Stochastic processes - n0?Lezione?Sonia?Mazzucchi?sonia.mazzucchi@unitn.it
-8?12?16?17?Nanoscience - n0?Lezione?Marina?Scarpa?marina.scarpa@unitn.it
-8?13?9?10?Algebraic geometry I?Lezione?Gianluca?Occhetta?gianluca.occhetta@unitn.it
-8?13?10?11?Computational algebra?Lezione?Willem Adriaan?De Graaf?willem.degraaf@unitn.it
-8?13?11?13?Coding theory and applications?Lezione?Massimiliano?Sala?massimiliano.sala@unitn.it
-8?13?14?16?Nanoscience - n0?Lezione?Marina?Scarpa?marina.scarpa@unitn.it
+8?1?9?11?Programmazione ad oggetti - n0?Lezione?Enrico?Blanzieri?enrico.blanzieri@unitn.it
+8?1?11?13?Industrial robotics - n0?Lezione?Daniele?Bortoluzzi?daniele.bortoluzzi@unitn.it
+8?1?17?19?Manufacturing automation LAB?Lezione?Paolo?Bosetti?paolo.bosetti@unitn.it
+8?2?11?13?Project managment LAB?Lezione?Andrea?Molinari?andrea.molinari@unitn.it
+8?3?9?11?Nanomaterials and nanotechnologies - n0?Lezione?Luca?Lutterotti?luca.lutterotti@unitn.it
+8?3?11?13?Industrial robotics - n0?Lezione?Daniele?Bortoluzzi?daniele.bortoluzzi@unitn.it
+8?3?14?17?Systems and techniques for digital signal processing - n0?Lezione?David?Macii?david.macii@unitn.it
+5?3?17?19?Innovation and entrepreneurship studies in ict?Lezione
+8?4?9?11?Computational methods for mechatronics - n0?Lezione?Enrico?Bertolazzi?enrico.bertolazzi@unitn.it
+8?4?11?13?Computer vision?Lezione?Nicola?Conci?nicola.conci@unitn.it
+8?4?14?16?Innovation and entrepreneurship basic?Lezione?Milena?Stoycheva?milena.stoycheva@unitn.it
+8?4?16?18?Data mining_mod2?Lezione?Enrico?Blanzieri?enrico.blanzieri@unitn.it
+8?5?9?11?Misure meccaniche e termiche - n0?Lezione?Mariolino?De Cecco?mariolino.dececco@unitn.it
+8?5?11?14?Fondamenti di elettronica - n0?Lezione?Gianfranco?Dalla Betta?gianfranco.dallabetta@unitn.it
+8?5?14?16?Mechanical design and machine elements?Lezione?Matteo?Benedetti?matteo.benedetti@unitn.it
+8?5?16?18?Metallic materials engineering - mod2?Lezione?Massimo?Pellizzari?massimo.pellizzari@unitn.it
+8?6?9?11?Chimica con elementi di chimica organica - MZ?Lezione?Riccardo?Ceccato?riccardo.ceccato@unitn.it
+8?6?11?13?Chimica con elementi di chimica organica - AL?Lezione?Riccardo?Ceccato?riccardo.ceccato@unitn.it
+8?6?15?17?Fisica generale I?Lezione?Franco?Dalfovo?franco.dalfovo@unitn.it
+8?7?9?11?Tecnologie meccaniche - n0?Lezione?Paolo?Bosetti?paolo.bosetti@unitn.it
+8?7?11?13?Fondamenti di fisica matematica - mod1?Lezione?Valter?Moretti?valter.moretti@unitn.it
+5?7?14?16?0514G_tutorato geometria1 - matr. PARI?Lezione
+8?7?16?18?Concurrency?Lezione?Paola?Quaglia?paola.quaglia@unitn.it
+8?8?9?11?Biologia degli organismi?Lezione?Manuela?Basso?manuela.basso@unitn.it
+8?8?11?13?Fisica I?Lezione?Antonio?Miotello?antonio.miotello@unitn.it
+5?8?14?16?Seminario Prof. Jean Dalibard ?Seminario
+5?8?16?18?Tutorato di Fisica II?Tutorato
+8?9?9?11?Advanced remote sensing systems?Lezione?Lorenzo?Bruzzone?lorenzo.bruzzone@unitn.it
+8?9?11?13?Mathematical biology - Mathematical modeling - mod2?Lezione?Andrea?Pugliese?andrea.pugliese@unitn.it
+8?9?14?16?Fourier analysis?Lezione?Augusto?Visintin?augusto.visintin@unitn.it
+8?9?16?18?Stochastic processes - n0?Lezione?Sonia?Mazzucchi?sonia.mazzucchi@unitn.it
+5?10?9?11?Tutorato "Biologia degli Organismi"?Tutorato
+8?10?11?14?Propagazione elettromagnetica - n0?Lezione?Giacomo?Oliveri?giacomo.oliveri@unitn.it
+8?10?15?18?Scienza e tecnologia dei materiali 2 - n0?Lezione?Luca?Fambri?luca.fambri@unitn.it
+5?11?9?11?0513G_tutorato analisi1?Lezione
+8?11?13?15?Offensive technologies - n0?Lezione?Fabio?Massacci?fabio.massacci@unitn.it
+5?11?15?17?Computational methods for transport phenomena?Lezione
+8?12?9?12?Product design - n0?Lezione?Stefano?Rossi?stefano.rossi@unitn.it
+5?12?14?17?Presentazione Dottorandi?Evento / Convegno
+8?13?9?11?Mathematical aspects of bioelectromagnetism and imaging - n0?Lezione?Ana Maria?Alonso Rodriguez?ana.alonso@unitn.it
+8?13?11?13?Scientific programming - mod1?Lezione?Alberto?Montresor?alberto.montresor@unitn.it
+8?13?14?16?Chemistry and biochemistry - mod2?Lezione?Emiliano?Biasini?emiliano.biasini@unitn.it
 8?13?16?18?Molecular biology of the cell - mod2?Lezione?Giovanni?Piccoli?giovanni.piccoli@unitn.it
-8?14?9?11?Neurogenesis and regeneration - n0?Lezione?Luciano?Conti?luciano.conti@unitn.it
+8?14?9?11?Transcriptional control in cancer?Lezione?Giovanni?Stefani?g.stefani@unitn.it
 8?14?11?13?Translational control in disease - n0?Lezione?Alessandro?Provenzani?alessandro.provenzani@unitn.it
-8?14?14?16?Neurodegenerative diseases - n0?Lezione?Marco?Canossa?marco.canossa@unitn.it
-8?15?9?11?Bioinspired and functional materials - n0?Lezione?Devid?Maniglio?devid.maniglio@unitn.it
-8?15?11?13?Advanced analysis?Lezione?Francesco?Serra Cassano?francesco.serracassano@unitn.it
-5?15?14?16?Biotechnology management and regulations - mod2?Lezione
-8?15?16?18?Biotechnology management and regulations - mod1?Lezione?Mariasole?Bannò?mariasole.banno@unitn.it
-5?16?9?13?Progetto città educante DISI?Istituzionale
-8?16?14?17?Affective computing?Lezione?NICULAE?SEBE?Niculae.Sebe@unitn.it
-8?17?10?13?E-learning?Lezione?MARCO?RONCHETTI?marco.ronchetti@unitn.it
-5?17?13?14?Corso individuale Inglese , prof.ssa Gallagher?Corso di formazione interno
-8?18?9?11?Chemistry and biochemistry - mod1?Lezione?Graziano?Lolli?graziano.lolli@unitn.it
-8?18?11?13?Modern physics - mod2?Lezione?Pietro?Faccioli?pietro.faccioli@unitn.it
-5?18?14?16?0516g_tutorato Fisica?Lezione
-8?19?9?11?Materials for energy - n0?Lezione?Gian Domenico?SORARÙ?giandomenico.soraru@unitn.it
-8?19?11?13?Industrial systems modeling - n0?Lezione?Mario?Fedrizzi?mario.fedrizzi@unitn.it
-8?19?13?19?Appello Straordinario/Registrazione Meccanica quantistica - n0?Esame?Sandro?Stringari?sandro.stringari@unitn.it
-8?20?9?11?Physics of materials?Lezione?Antonio?Miotello?antonio.miotello@unitn.it
-8?20?11?13?Atomic physics?Lezione?Gabriele?Ferrari?gabriele.ferrari@unitn.it
-8?20?14?16?Scientific programming - mod2?Lezione?Alberto?Montresor?alberto.montresor@unitn.it
-8?20?16?18?Algebraic cryptography - mod1?Lezione?Massimiliano?Sala?massimiliano.sala@unitn.it
-8?21?9?10?Mathematical models for the physical, natural and social sciences - n0?Lezione?Stefano?Bonaccorsi?stefano.bonaccorsi@unitn.it
-8?21?10?13?Modern physics - n0?Lezione?Stefano?Oss?stefano.oss@unitn.it
-8?21?14?16?Geometria I?Lezione?ROBERTO?PIGNATELLI?roberto.pignatelli@unitn.it
-5?22?9?11?Analisi I per DII, rif. C. Toldo?Tutorato
-8?22?11?14?Comunicazioni multimediali?Lezione?Francesco?De Natale?francesco.denatale@unitn.it
-5?22?14?16?Introduction to computer and network security?Lezione
-8?22?16?18?General relativity and cosmology?Lezione?Massimiliano?Rinaldi?massimiliano.rinaldi@unitn.it
-8?23?9?11?Electromagnetic compatibility?Lezione?Renzo?Azaro?renzo.azaro@unitn.it
-8?23?11?13?Radar architectures and systems - n0?Lezione?Paolo?Rocca?paolo.rocca@unitn.it
-5?23?14?16?Tutorato DISI: Informatica ?Tutorato
-5?23?17?19?Tutorato Meccatronica (rif. BIral)?Tutorato
-5?24?9?11?Tutorato Fisica 2 prof. L. Pavesi, rif. C. Toldo?Tutorato
-8?24?11?14?Scienza e tecnologia dei materiali 1 - n0?Lezione?Roberto?Dal Maschio?roberto.dalmaschio@unitn.it
-8?24?14?16?Security testing - n0?Lezione?Paolo?Tonella?tonella@fbk.eu
-8?24?16?18?Analisi funzionale?Lezione?Augusto?Visintin?augusto.visintin@unitn.it
-5?25?9?13?Laboratorio didattico di Fisica (DICAM) - Prodi?Lezione
-8?25?15?18?Fisica I - LAB - GRUPPO A?Lezione?Antonio?Miotello?antonio.miotello@unitn.it
+8?14?16?18?Cancer therapy?Lezione?Andrea?Lunardi?andrea.lunardi@unitn.it
+8?15?9?11?Advanced geometry?Lezione?ROBERTO?PIGNATELLI?roberto.pignatelli@unitn.it
+8?15?11?13?Algebraic geometry I?Lezione?Gianluca?Occhetta?gianluca.occhetta@unitn.it
+8?15?14?16?Advanced analysis?Lezione?Francesco?Serra Cassano?francesco.serracassano@unitn.it
+5?16?13?16?Technical english_corso 1?Lezione
+8?18?9?11?Biostatistics - mod1?Lezione?Andrea?Pugliese?andrea.pugliese@unitn.it
+8?18?14?18?Analisi matematica 3?Lezione?Silvano?Delladio?silvano.delladio@unitn.it
+8?19?9?11?Neurodegenerative diseases?Lezione?Marco?Canossa?marco.canossa@unitn.it
+8?19?11?13?Electromagnetic compatibility?Lezione?Renzo?Azaro?renzo.azaro@unitn.it
+8?19?13?14?Nanoscience - n0?Lezione?Marina?Scarpa?marina.scarpa@unitn.it
+8?19?14?16?Neurogenesis and regeneration - n0?Lezione?Luciano?Conti?luciano.conti@unitn.it
+8?20?9?11?Tensor decomposition for big data analysis - n0?Lezione?Alessandra?Bernardi?alessandra.bernardi@unitn.it
+8?20?11?13?Laboratory of energy conversion processes - n0?Lezione?Paolo?Tosi?paolo.tosi@unitn.it
+8?20?13?15?Atomic physics?Lezione?Gabriele?Ferrari?gabriele.ferrari@unitn.it
+8?20?16?18?Molecular and cellular biophysics - n0?Lezione?Marina?Scarpa?marina.scarpa@unitn.it
+8?21?9?11?Introduction to service design and engineering?Lezione?Maurizio?Marchese?maurizio.marchese@unitn.it
+8?21?11?14?Ingegneria della qualità?Lezione?Nicola?Mezzetti?nicola.mezzetti@unitn.it
+8?21?14?17?Topics in history of mathematics - n0?Lezione?CLAUDIO?FONTANARI?claudio.fontanari@unitn.it
+8?22?9?11?Microbiologia generale?Lezione?Olivier?Jousson?olivier.jousson@unitn.it
+8?23?9?11?Computational biophysics - mod1?Lezione?Gianluca?Lattanzi?gianluca.lattanzi@unitn.it
+8?23?11?13?Biotechnology management and regulations - mod1?Lezione?Mariasole?BANNO'?mariasole.banno@unitn.it
+5?23?14?16?Biotechnology management and regulations - mod2?Lezione
+8?24?10?13?Modern physics - n0?Lezione?Stefano?Oss?stefano.oss@unitn.it
+5?24?14?16?Tutorato DISI: Informatica ?Tutorato
+8?25?14?18?Laboratorio di fisica III - n0?Lezione?Rolly?Grisenti?rolly.grisenti@unitn.it

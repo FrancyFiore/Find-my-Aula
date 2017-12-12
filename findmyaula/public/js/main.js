@@ -566,6 +566,7 @@
                     for(var c=0; c<(PrimoPiano.length-1); c++){
                         var fields = PrimoPiano[c].split('?');
                         var fields2 = PrimoPiano[c+1].split('?');
+						classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');
                         if(fields[1] == aula){
                             if(ora >= fields[2] && ora < fields[3]){
                                 classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
@@ -584,6 +585,7 @@
                     for(var c=0; c<(SecondoPiano.length-1); c++){
                         var fields = SecondoPiano[c].split('?');
                         var fields2 = SecondoPiano[c+1].split('?');
+						classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--libera');
                         if(fields[1] == aula){
                             if(ora >= fields[2] && ora < fields[3]){
                                 classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.0' + aula + '"]'), 'map__space--occupata');
@@ -602,6 +604,7 @@
                     for(var c=0; c<(SecondoPiano.length-1); c++){
                         var fields = SecondoPiano[c].split('?');
                         var fields2 = SecondoPiano[c+1].split('?');
+						classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--libera');
                         if(fields[1] == aula){
                             if(ora >= fields[2] && ora < fields[3]){
                                 classie.add(mallLevels[1].querySelector('svg > .map__space[data-space="2.' + aula + '"]'), 'map__space--occupata');
@@ -669,6 +672,7 @@
                     for(var c=0; c<(PoloB.length-1); c++){
                         var fields =PoloB[c].split('?');
                         var fields2 = PoloB[c+1].split('?');
+						classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--libera');
                         if(fields[1] == aula){
                             if(ora >= fields[2] && ora < fields[3]){
                                 classie.add(mallLevels[0].querySelector('svg > .map__space[data-space="1.0' + aula + '"]'), 'map__space--occupata');
@@ -703,6 +707,45 @@
         }
     }
     /* FINE INSERIMENTO COLORAZIONE DELLE AULE POLO B */
+	
+	var check2 = document.getElementById('ProssimaOra');
+	check2.onclick = function(){    
+		if(adesso < 20){
+			Pulitore();
+			adesso = adesso+1;
+			SetOrario();
+
+			main(window);
+
+			document.getElementById("Ora").value = "Ora:" + " " + adesso;
+		}
+	}
+
+	var check3 = document.getElementById('Ora');
+	check3.onclick = function(){
+		adesso = today.getHours();
+	   /* adesso = 13; */
+		Pulitore();
+		SetOrario();
+
+		main(window);
+
+		document.getElementById("Ora").value = "Ora:" + " " + adesso;
+	}
+
+	var check4 = document.getElementById('OraPrecedente');
+	check4.onclick = function(){
+		if(adesso > 8){
+			Pulitore();
+			adesso = adesso-1;
+			SetOrario();
+
+			main(window);
+
+			document.getElementById("Ora").value = "Ora:" + " " + adesso;
+		}
+	}
+
 	init();
 
 })(window);

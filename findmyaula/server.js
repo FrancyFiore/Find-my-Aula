@@ -62,7 +62,6 @@ fs.readFile("./public/file/data.txt", 'utf8', function (err,data) {
 	ScrapingMeteo();
 });
 
-
 function Scraping(){
     
     var url = "https://easyroom.unitn.it/Orario/rooms_call.php?form-type=rooms&sede=E0503&date=" + today +"&_lang=it";
@@ -272,11 +271,9 @@ function Scraping(){
         });
     });
 }
-
-
   
 function ScrapingMeteo(){
-    
+	
     var url = "https://api.darksky.net/forecast/299a86e0e85830a3c6c88ecc410d0394/46.066,11.130";
 	https.get(url, res => {
 		res.setEncoding("utf8");

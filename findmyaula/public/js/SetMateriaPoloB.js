@@ -19,7 +19,6 @@ function SetOrario(){
     /* POLO B PRIMO PIANO */
     for(var aula=6; aula<8; aula++){
         for(var ora=7; ora<21; ora++){
-            /*var element = document.getElementById("B10" + aula + ora);*/
             for(var c=0; c<(PoloB.length-1); c++){
                 var fields = PoloB[c].split('?');
                 if(fields[1] == aula){
@@ -53,49 +52,3 @@ function Pulitore(){
     }
 }
 /* FINE PULITORE */
-
-var check = document.getElementById('ProssimaOra');
-check.onclick = function(){   
-    if(adesso < 20){
-		Pulitore();
-        adesso = adesso+1;
-        SetOrario();
-        
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "js/main.js"; 
-        document.getElementsByTagName("head")[0].appendChild(script);
-        
-        document.getElementById("Ora").value = "Ora:" + " " + adesso;
-    }
-}
-
-var check2 = document.getElementById('Ora');
-check2.onclick = function(){
-    adesso = today.getHours();
-    Pulitore();
-    SetOrario();
-    
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "js/main.js"; 
-    document.getElementsByTagName("head")[0].appendChild(script);
-    
-    document.getElementById("Ora").value = "Ora:" + " " + adesso;
-}
-
-var check3 = document.getElementById('OraPrecedente');
-check3.onclick = function(){
-    if(adesso > 8){
-		Pulitore();
-        adesso = adesso-1;
-        SetOrario();
-        
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "js/main.js"; 
-        document.getElementsByTagName("head")[0].appendChild(script);
-        
-        document.getElementById("Ora").value = "Ora:" + " " + adesso;
-    }
-}

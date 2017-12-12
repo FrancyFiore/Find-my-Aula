@@ -18,6 +18,10 @@
 			<div>
 				<header class="codrops-header">
 					<h1><a href="/">Interactive University Map</a></h1>
+					<!--<span class="sopra">
+                        <input type="checkbox" id="Accessibile"/> 
+                        <span id="info">Accessibili</span>
+                    </span>-->
 				</header>
                 <div class="ph-container">
                     <div class="ph-container2">
@@ -39,7 +43,7 @@
 									<option value="A107">A107</option>
 									<option value="A108">A108</option>
 									<option value="AulaStudio">Aula Studio</option>
-
+									
 									<option value="A201">A201</option>
 									<option value="A202">A202</option>
 									<option value="A203">A203</option>
@@ -64,6 +68,7 @@
 									<option value="A222">A222</option>
 									<option value="A223">A223</option>
 									<option value="A224">A224</option>
+									<option value="LDMECCANICA">LD Meccanica</option>
 								</select>
 								<br/>
 								<label for="endSelect">Mostra la strada per</label>
@@ -79,7 +84,7 @@
 									<option value="A107">A107</option>
 									<option value="A108">A108</option>
 									<option value="AulaStudio">Aula Studio</option>
-
+									
 									<option value="A201">A201</option>
 									<option value="A202">A202</option>
 									<option value="A203">A203</option>
@@ -104,11 +109,8 @@
 									<option value="A222">A222</option>
 									<option value="A223">A223</option>
 									<option value="A224">A224</option>
+									<option value="LDMECCANICA">LD Meccanica</option>
 								</select>
-								<!--
-								<label for="accessible">Accessible</label>
-								<input id="accessible" type="checkbox" name="accessible" value="Accessible" />
-								-->
 							</div>
                         </div> 
                     </div>  
@@ -124,7 +126,7 @@
         <script>
             // Variabili per WayFinding
             var MAPS = [{'path': 'img/floor1.svg', 'id': 'floor1'},{'path': 'img/floor2.svg', 'id': 'floor2'}];
-            var START_ROOM = 'Entrance';
+            var START_ROOM = 'Entrata';
             var DEFAULT_MAP = 'floor1';
             var lastRoomSelected;
 
@@ -133,7 +135,7 @@
                 'use strict';
                 $('#myMaps').wayfinding({
                     'maps': MAPS,
-                    'path': { width: 25, color: 'red', radius: 8, speed: 1
+                    'path': { width: 12, color: '#05a', radius: 8, speed: 4
                     },
                     'startpoint': function () {
                         return START_ROOM;
