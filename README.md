@@ -82,44 +82,6 @@ La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre q
 Come strategia di branching usiamo Master-Only strategy
 
 ### User Stories:
-
-1 - Aula libera:
-    Come utente voglio trovare un’aula libera così da poter avere uno spazio alternativo alla biblioteca dove poter studiare e confrontarmi anche con i miei compagni.
-    Partendo dalla pagina principale, quando sceglierò l’opzione “Trova aula libera” e avrò inserito uno slot di tempo, mi sarà mostrata una lista delle aule libere in quella determinata fascia temporale.
-###    Importanza :5
-###    Priorità: 5
-
-
-2 - Aula:
-    Come utente voglio sapere dove si trova l’aula che sto cercando in modo tale da non perdere tempo inutilmente vagando per l’università ed arrivare puntuale ad ogni lezione.
-    Partendo dalla pagina principale, quando scriverò il nome dell’aula nell’apposito slot di testo e darò l’invio, mi sarà mostrata una mappa dell’edificio con l’aula che ho scelto evidenziata.
-###    Importanza :3
-###    Priorità: 2
-    
-3 - Lezione:
-    Come utente voglio sapere in che aula si svolge una determinata lezione in modo tale da non dover sfogliare gli orari di tutte le aule per poter trovare l’aula della lezione che cerco.
-    Partendo dalla pagina principale, quando scriverò il nome della lezione che desidero seguire nell’apposito slot di testo e darò l’invio, mi sarà mostrata l’aula dove tale lezione si svolge e evidenziata sulla mappa dell’edificio.
-###    Importanza :2
-###    Priorità: 3    
-
-4 - Orario:
-    Come utente voglio trovare l’orario di una determinata aula per sapere quali lezioni si svolgeranno in una determinata giornata.
-    Partendo dalla pagina principale, quando scriverò il nome dell’aula nell’apposito slot di testo e la data del giorno di cui sono interessato e darò l’invio, mi sarà mostrato l’elenco delle lezioni in quell’aula della giornata scelta.	
-###    Importanza :2
-###    Priorità: 3  
-
-5 - Ufficio professore:
-    Come utente voglio sapere dove si trova l'ufficio di un determinato professore in modo tale da non perdere tempo, non girare tutti i corridoi e arrivare in anticipo all'appuntamento.
-    Partendo dalla pagina iniziale, quando scriverò nell'apposita casella il cognome del prof mi sarà fornito il numero dell'ufficio e la mappa con evidenziata la stanza.
-###    Importanza :2
-###    Priorità: 5    
-    
-6 - Laboratorio:
-    Come utente voglio poter trovare la locazione di un determinato laboratorio e che mi mostri la mappa in modo tale da raggiungere con facilità il laboratorio in cui ho la lezione.
-    Partendo dalla pagina iniziale, quando scriverò il nome del laboratorio, mi sarà mostrata la mappa di dove è posizionato.
-###    Importanza :2
-###    Priorità: 2
-
 Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce.
 https://waffle.io/FrancyFiore/Find-my-Aula
 
