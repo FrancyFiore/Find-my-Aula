@@ -3,8 +3,10 @@
 ### SCOPO DEL PROGETTO
 
 Abbiamo riscontrato che una delle maggiori problematiche degli studenti, in particolare delle matricole, e più in generale di persone nuove nell’ambiente universitario di Trento, è la difficoltà di orientarsi all’interno delle strutture e trovare in breve tempo le aule dove devono recarsi. Inoltre è stata riscontrata anche una scarsa segnaletica interna per consentire di trovare velocemente le aule.
-Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che sia in grado di aiutare gli studenti a trovare aule e altri spazi universitari (come aule studio) dell’Università degli Studi di Trento del polo Ferrari (Povo 1).
-ANALISI DEI DATI RACCOLTI (tramite Google Form)
+Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che sia in grado di aiutare gli studenti a trovare aule e altri spazi universitari (come aule studio) dell’Università degli Studi di Trento del polo Ferrari (inizialmente di Povo 1 poi in seguito abbiamo previsto anche l’implementazione della stessa applicazione per la struttura polo Ferrari Povo 2).
+
+### ANALISI DEI DATI RACCOLTI (tramite Google Form)
+
 Abbiamo ricevuto in tutto 35 risposte al nostro sondaggio. Ne è risultato che un’applicazione per orientarsi all’interno dell’università sarebbe utile a più del 91% degli interrogati. In particolare abbiamo potuto constatare che gli studenti molto spesso cercano un’aula libera, quindi abbiamo deciso che questa funzione sarà il punto focale della nostra applicazione. 
 
 
@@ -46,22 +48,22 @@ Abbiamo ricevuto in tutto 35 risposte al nostro sondaggio. Ne è risultato che u
 
 ```
 
-Abbiamo previsto anche l’implementazione della stessa applicazione per la struttura polo Ferrari (Povo 2).
 
 Abbiamo previsto di dividere il progetto in due release:
 
 ### Release 1:                                      
-1. “Trova aula”;                                    
-2. “Trova aula libera”;                             
-3. “Trova lezione”;                                 
-4. “Trova orario”;                                  
-5. “Trova percorso”;
-6. "Trova ufficio professore”;
-7. “Trova laboratorio”.
+1. Implementazione delle mappe;
+2. Funzione “Trova aula”;                                    
+3. Funzione “Trova aula libera”;                             
+4. Funzione “Trova lezione”;                                 
+5. Funzione “Trova orario”;                                  
+6. Funzione “Trova percorso” per il Polo A;
+7. Funzione "Trova ufficio professore”;
+8. Funzione “Trova laboratorio”.
 
 ### Release 2:
 1. Bot Telegram;
-2. WayFinding per Polo B.
+2. Funzione “Trova percorso” per il Polo B.
 
 ### Componenti/Architetture
 - API meteo
@@ -75,7 +77,7 @@ Inizialmente ci siamo trovati per una discussione preliminare per decidere le li
 La suddivisione del lavoro è quella presente in waffle.
 
 ### Strategia di Branching
-Come strategia di branching usiamo Master-Only strategy
+Come strategia di branching usiamo Master-Only strategy.
 
 ### User Stories:
 Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce.
