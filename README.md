@@ -56,19 +56,17 @@ Abbiamo previsto di dividere il progetto in due release:
 2. “Trova aula libera”;                             
 3. “Trova lezione”;                                 
 4. “Trova orario”;                                  
-5. “Trova percorso”.
+5. “Trova percorso”;
+6. "Trova ufficio professore”;
+7. “Trova laboratorio”;
 
 ### Release 2:
-1. "Trova ufficio professore”;
-2.  “Trova laboratorio”;
-3. Implementazione del bot anche per la struttura di Povo 2;
-4. Bot Telegram
+1. Bot Telegram
 
 ### Componenti/Architetture
-- API.ia
+- API meteo
 - Javascript
 - Heroku
-- MongoDb
 - Node.js
 
 ### Organizzazione Team
@@ -76,15 +74,10 @@ La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre q
 
 -Discussione iniziale sul progetto
 -Requisiti
--Programmazione: Fiorelli Francesco e Tosadori Cesare
--Testing: Scantamburlo Silvia e Oliari Roberta
-
-Strategia di Branching
-Come strategia di branching usiamo la Gitflow Workflow.
-
+-Riunioni settimanali per verificare il progresso del progetto e fare eventuali commit.
 
 ### Strategia di Branching
-Come strategia di branching usiamo la Gitflow Workflow.
+Come strategia di branching usiamo Master-Only strategy
 
 ### User Stories:
 
@@ -93,7 +86,6 @@ Come strategia di branching usiamo la Gitflow Workflow.
     Partendo dalla pagina principale, quando sceglierò l’opzione “Trova aula libera” e avrò inserito uno slot di tempo, mi sarà mostrata una lista delle aule libere in quella determinata fascia temporale.
 ###    Importanza :5
 ###    Priorità: 5
-
 
 
 2 - Aula:
@@ -128,3 +120,9 @@ Come strategia di branching usiamo la Gitflow Workflow.
 
 Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce.
 https://waffle.io/FrancyFiore/Find-my-Aula
+
+Link all'APP
+https://findmyaule.herokuapp.com
+
+APIARY
+----
