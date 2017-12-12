@@ -83,10 +83,12 @@ Come strategia di branching usiamo Master-Only strategy
 
 ### User Stories:
 Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce.
+
+Link a Waffle:
 https://waffle.io/FrancyFiore/Find-my-Aula
 
-Link all'APP
+Link ad Heroku:
 https://findmyaule.herokuapp.com
 
-APIARY
-----
+APIARY:
+......
