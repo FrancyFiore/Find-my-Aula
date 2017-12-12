@@ -1,4 +1,4 @@
-## Benvenuto in Find my Aula
+# Find my Aula
 
 ### SCOPO DEL PROGETTO
 
