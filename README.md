@@ -60,7 +60,8 @@ Abbiamo previsto di dividere il progetto in due release:
 7. “Trova laboratorio”.
 
 ### Release 2:
-1. Bot Telegram.
+1. Bot Telegram;
+2. WayFinding per Polo B.
 
 ### Componenti/Architetture
 - API meteo
@@ -69,13 +70,9 @@ Abbiamo previsto di dividere il progetto in due release:
 - Node.js
 
 ### Organizzazione Team
-La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: FEATURE TEAM.
-
--Discussione iniziale sul progetto
-
--Requisiti
-
--Riunioni settimanali per verificare il progresso del progetto e fare eventuali commit.
+La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: COMPONENT TEAM. 
+Inizialmente ci siamo trovati per una discussione preliminare per decidere le linee guida e requisiti per lo svolgimento del progetto. In seguito abbiamo organizzato riunioni settimanali per verificare il progresso del progetto e fare eventuali commit di gruppo. Una volta che i commit importanti erano stati fatti e l'applicazione aveva preso forma, ci siamo trovati solo per brevi incontri per fare il punto della situazione e per fare il tetsing e abbiamo fatto commit individuali per le modifiche marginali o ultime aggiunte. 
+La suddivisione del lavoro è quella presente in waffle.
 
 ### Strategia di Branching
 Come strategia di branching usiamo Master-Only strategy
