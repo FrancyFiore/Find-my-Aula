@@ -8,7 +8,6 @@ ANALISI DEI DATI RACCOLTI (tramite Google Form)
 Abbiamo ricevuto in tutto 35 risposte al nostro sondaggio. Ne è risultato che un’applicazione per orientarsi all’interno dell’università sarebbe utile a più del 91% degli interrogati. In particolare abbiamo potuto constatare che gli studenti molto spesso cercano un’aula libera, quindi abbiamo deciso che questa funzione sarà il punto focale della nostra applicazione. 
 
 
-
 ### Features Principali
 
 
@@ -58,10 +57,10 @@ Abbiamo previsto di dividere il progetto in due release:
 4. “Trova orario”;                                  
 5. “Trova percorso”;
 6. "Trova ufficio professore”;
-7. “Trova laboratorio”;
+7. “Trova laboratorio”.
 
 ### Release 2:
-1. Bot Telegram
+1. Bot Telegram.
 
 ### Componenti/Architetture
 - API meteo
