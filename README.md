@@ -73,7 +73,9 @@ Abbiamo previsto di dividere il progetto in due release:
 La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: FEATURE TEAM.
 
 -Discussione iniziale sul progetto
+
 -Requisiti
+
 -Riunioni settimanali per verificare il progresso del progetto e fare eventuali commit.
 
 ### Strategia di Branching
