@@ -1,11 +1,11 @@
 # Find my Aula
 
-### SCOPO DEL PROGETTO
+### Scopo del Progetto
 
 Abbiamo riscontrato che una delle maggiori problematiche degli studenti, in particolare delle matricole, e più in generale di persone nuove nell’ambiente universitario di Trento, è la difficoltà di orientarsi all’interno delle strutture e trovare in breve tempo le aule dove devono recarsi. Inoltre è stata riscontrata anche una scarsa segnaletica interna per consentire di trovare velocemente le aule.
 Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che sia in grado di aiutare gli studenti a trovare aule e altri spazi universitari (come aule studio) dell’Università degli Studi di Trento del polo Ferrari (inizialmente di Povo 1 poi in seguito abbiamo previsto anche l’implementazione della stessa applicazione per la struttura polo Ferrari Povo 2).
 
-### ANALISI DEI DATI RACCOLTI (tramite Google Form)
+### Analisi dei Dati (raccolti tramite Google Form)
 
 Abbiamo ricevuto in tutto 35 risposte al nostro sondaggio. Ne è risultato che un’applicazione per orientarsi all’interno dell’università sarebbe utile a più del 91% degli interrogati. In particolare abbiamo potuto constatare che gli studenti molto spesso cercano un’aula libera, quindi abbiamo deciso che questa funzione sarà il punto focale della nostra applicazione. 
 
@@ -71,7 +71,7 @@ Abbiamo previsto di dividere il progetto in due release:
 - Heroku
 - Node.js
 
-### Organizzazione Team
+### Organizzazione del Team
 La comunicazione informale nel team avviene tramite gruppo su Telegram, mentre quella formale avviene attraverso i servizi messi a disposizione da Github. Tipologia di team: COMPONENT TEAM. 
 Inizialmente ci siamo trovati per una discussione preliminare per decidere le linee guida e requisiti per lo svolgimento del progetto. In seguito abbiamo organizzato riunioni settimanali per verificare il progresso del progetto e fare eventuali commit di gruppo. Una volta che i commit importanti erano stati fatti e l'applicazione aveva preso forma, ci siamo trovati solo per brevi incontri per fare il punto della situazione e per fare il tetsing e abbiamo fatto commit individuali per le modifiche marginali o ultime aggiunte. 
 La suddivisione del lavoro è quella presente in waffle.
@@ -80,7 +80,7 @@ La suddivisione del lavoro è quella presente in waffle.
 Come strategia di branching usiamo Master-Only strategy.
 
 ### User Stories:
-Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce.
+Per definire l’importanza e la difficoltà delle varie user stories abbiamo fatto una sorta di planning poker a voce, e abbiamo poi riportato su waffle quanto stimato.
 
 Link a Waffle:
 https://waffle.io/FrancyFiore/Find-my-Aula
