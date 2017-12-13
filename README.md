@@ -86,7 +86,7 @@ Link a Waffle:
 https://waffle.io/FrancyFiore/Find-my-Aula
 
 Link ad Heroku:
-https://findmyaule.herokuapp.com
+https://findmyaula.herokuapp.com
 
 APIARY:
 ......
