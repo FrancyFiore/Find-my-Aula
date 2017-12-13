@@ -8,6 +8,7 @@ Pertanto abbiamo deciso per il nostro progetto di creare un’applicazione che s
 ### Analisi dei Dati (raccolti tramite Google Form)
 
 Abbiamo ricevuto in tutto 35 risposte al nostro sondaggio. Ne è risultato che un’applicazione per orientarsi all’interno dell’università sarebbe utile a più del 91% degli interrogati. In particolare abbiamo potuto constatare che gli studenti molto spesso cercano un’aula libera, quindi abbiamo deciso che questa funzione sarà il punto focale della nostra applicazione. 
+https://docs.google.com/forms/d/1UOrfWsGJZnRa_tKZN-VHAI0kobZd1SDH9zdT3ncTdYw/edit#responses
 
 
 ### Features Principali
@@ -88,5 +89,3 @@ https://waffle.io/FrancyFiore/Find-my-Aula
 Link ad Heroku:
 https://findmyaula.herokuapp.com
 
-APIARY:
-......
